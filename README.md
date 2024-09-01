@@ -13,4 +13,4 @@
 
 <!-- LINKS -->
 
-[`discord server`]: https://discord.gg/AAjB2pAXxY
+[`discord server`]: https://discord.gg/K87v8RwuwQ
