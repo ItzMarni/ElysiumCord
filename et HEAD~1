@@ -1,0 +1,2085 @@
+[33mc74ed505[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m temp upload (BROKEN)
+[33m4ad9ea82[m elysiumfying pt1, saving, moving pcs
+[33m80a35dff[m Merge branch 'Vendicated:main' into main
+[33m7cfb9525[m fuck
+[33m34689290[m temp new readme
+[33m968e688c[m Bump to 1.9.9
+[33mb595a3e3[m OpenInApp: Add support for localization in Spotify URL regex (#2776)
+[33me07a4e19[m VolumeBooster: Support browser and Vesktop (#2730)
+[33m273981de[m new plugin StickerPaste ~ Insert stickers instead of sending (#2781)
+[33m81eabc7e[m PatchHelper: Add Copy as Codeblock button (#2820)
+[33md5eaae9d[m new plugin CopyFileContents ~Easily copy text file attachments contents (#2790)
+[33m00276cad[m TimeBarAllActivities: Support new activity cards (#2813)
+[33meb0d91fd[m Add ts-pattern as @webpack/common
+[33m07e629d8[m SuperReactionTweaks: Allow disabling Super Reactions (#2805)
+[33me473a57c[m IgnoreActivities: Add option for blacklist filter (#2712)
+[33mad3d936d[m Fix settings wrapping fallback
+[33mdb2f5c92[m ConsoleJanitor: Remove non needed patch
+[33m5bfc608f[m new plugin AlwaysExpandRoles ~ Alternative to ShowAllRoles (#2809)
+[33m7d8214fc[m Fix PermissionsViewer on user popouts
+[33m4b16fbca[m MentionAvatars: Also display role icons in role mentions (#2801)
+[33m7ec842d4[m MoreUserTags: fix settings ui logic
+[33m6659f2c4[m bump to v1.9.8
+[33m1fb5e8df[m Add missing methods to ExpressionPickerStore
+[33m1e8f59f1[m ReviewDB: Add view review button to other profiles types
+[33mf0e69868[m PronounDB: Fix on user profiles
+[33m8afcb8e4[m new plugin NoMaskedLinkPaste (#2782)
+[33m2569c39d[m MemberCount: add thread support (#2785)
+[33med9b28fe[m Fix ViewIcons and NoProfileThemes
+[33m2e81b9ae[m PermissionsViewer: Fix user popout
+[33m44c84634[m Remove obsolete patches for old profiles (#2800)
+[33m2bdc2f4e[m delete ShowAllRoles ~ now a stock feature
+[33m66b247b2[m Fix persisting $$vencordPatchedSource when a module is loaded again
+[33m3d80cb2d[m Delete AutomodContext ~ Now a stock feature
+[33m904022a2[m [Webkeybinds] Don't override browser keybinds (#2792)
+[33m9cada9ad[m fix(Webpack): Not canonicalizing regex in some places
+[33m051bce89[m feat(Webpack): Add $$vencordPatchedSource to patched factories
+[33meaca14bb[m Fix Online Themes tab (#2786)
+[33md388aa43[m Decor: Fix on current user area
+[33m4301ed88[m Fix ShowHiddenThings feature & PauseInvitesForever
+[33m1a712e75[m fix(SpotifyControls): sync with external shuffle toggles  (#2767)
+[33m87e6fa86[m build: improve errors when breaking module boundaries
+[33m003e4a08[m fix PictureInPicture (#2773)
+[33m4e3c1780[m fix MutualGroupDMs
+[33m5160f906[m delete MaskedLinkPaste ~ now a stock Discord feature
+[33m021d9bf1[m fix message hover buttons... again
+[33md1996034[m fix YoutubeAdblock not working for some users
+[33m8274b675[m fix message hover buttons
+[33me437498c[m Fix broken patches
+[33m09c6c16c[m XSOverlay: Return old API for compatibility (#2753)
+[33me99eec50[m Migrate to eslint flat config; update dependencies (#2627)
+[33md919cd6b[m bump to v1.9.7
+[33mc185f47f[m ShowHiddenThings: Fix ModView highest role fix (#2747)
+[33m83d90f03[m FakeProfileThemes: fix crash when encountering invalid colours (#2714)
+[33m0f8d21a8[m new plugin YoutubeAdblock: blocks ads in embeds (formerly WatchTogetherAdblock)
+[33m2658459a[m fix: Add ViewRaw & MessageLogger context menu options on threads (#2750)
+[33mf8b01c1a[m Translate: Add DeepL support (#2721)
+[33m2382294e[m Decor: add copy preset id button (#2737)
+[33md47be6c0[m MentionAvatars: Add option to hide @ symbol(#2725)
+[33m6c12a33a[m fix(BetterFolders): Close folders when switching accounts (#2748)
+[33m9cc42bf4[m MutualGroupDms: make display consistent with Mutual Servers (#2727)
+[33m1bfdcf26[m fix BetterUploadButton on canary
+[33m3013c669[m Fix ShowConnections
+[33me460b5ef[m Fix MessagePopoverAPI patch (#2746)
+[33m902a86c3[m XSOverlay: Update to new API (#2736)
+[33m51ae019c[m feat(plugins/openInApp) Refactor code and add Apple Music support (#2744)
+[33m0f5cf37e[m fix(ShowHiddenThings): always render highest role in ModView (#2709)
+[33m5c88284e[m feat(showHiddenChannels): Fix Broken Patch (#2726)
+[33m5e9a9fe8[m bump to v1.9.6
+[33mbc801853[m Fix ImageZoom, SpotifyControls and ViewIcons (#2723)
+[33m20442647[m fix PictureInPicture on canary
+[33m3704c71a[m Fix loading scientific notation chunks
+[33m80b493d7[m WhoReacted: fix errors
+[33m67632ecc[m MentionAvatars: fix mentions being ultra wide in topics
+[33mc3852cb8[m fix badges on canary
+[33m5bd10c86[m MessageLogger: fix edit modal close button
+[33mea746f66[m MessageLogger: add compact display of history & edit modal (#2299)
+[33m2b273d9d[m fix(MessageLogger edits): render with proper guild context
+[33m71977f07[m fix(ShowMeYourName) - proper case insensitive name comparison (#2633)
+[33mbbf43c30[m fix(FakeNitro): do not convert applicable twitch sub emotes
+[33m0e7570ad[m InvisibleChat: fix embeds missing decrypted content (#2655)
+[33m92ae6260[m new plugin MentionAvatars: Shows user avatars inside mentions (#2691)
+[33m0057ab42[m Fix broken experiments patch
+[33m993304f9[m CtrlEnterSend: fix for new Discord update (#2689)
+[33m04dce64b[m Fix broken patches/finds
+[33m9f8c7494[m Fix broken patches
+[33m02092a98[m BetterNotes: fix crashing
+[33m9f79cc05[m bump to v1.9.4
+[33m319a99c2[m fix(MessageLogger): don't break attachment edits
+[33mc3f7950f[m MessageLogger: fix not blurring deleted spoilers
+[33m93dc880b[m Delete UrbanDictionary ~ better done via user app
+[33m78d27131[m Delete WikiSearch ~ better done via user app
+[33mbec4c76d[m Fix ShowAllRoles
+[33m256a85c9[m feat(plugins): ConsoleJanitor (#2659)
+[33m99b41dba[m improve settings ui (again)
+[33m77492061[m ctrlEnterSend: fix for new Discord update (#2647)
+[33m5c05443f[m improve settings ui
+[33m8a7c0d7e[m WebContextMenus: implement context menu for text selection (#2577)
+[33m2d570a52[m friendsSince: add support for new profiles (#2623)
+[33m086c31c8[m new plugin ShowAllRoles: show all roles in simplified profiles (#2624)
+[33m169edcb5[m improve support helper
+[33mbda0e184[m browser: increase minimum browser versions
+[33m2fa56b80[m Harder conditions for Sentry patching
+[33m5c1c786c[m Fix ReviewDB patch
+[33m62485e86[m Obliterate Sentry
+[33me4bf7178[m TextReplace: support /v regex flag
+[33m484d70fb[m bump to v1.9.3
+[33mdf6ffd90[m Fix broken patches
+[33m96873cce[m Temp fix for disabling Sentry
+[33mcbc7f723[m Fix acquiring WebpackRequire
+[33me37a0cfe[m bump to v1.9.2
+[33mf81cd5d9[m Fix broken patches
+[33m7c923b99[m fix enabled by default logic
+[33m14e11973[m fix ShowConnections & FakeProfileThemes
+[33mbc0d4a80[m BadgeAPI: fix bugs in new profiles
+[33me0d99e2f[m add ReviewDB in new profiles
+[33m6d4c9339[m PermissionsViewer: add to simplified profiles
+[33m705da29d[m add Mutual Groups to new profiles
+[33m7f1ccef3[m fix ShowConnections
+[33m3ad76b7f[m NewGuildSettings: Add "Apply NewGuildSettings" button in menu (#2556)
+[33m4008c930[m ShowHiddenThings: fix discovery filter bypass (#2626)
+[33mcd205b13[m ReviewDB: add to context menu in new profile ui (#2622)
+[33m3688c7e4[m ShowMeYourName: compare username & nick case insensitive (#2630)
+[33m32c2128c[m ReplaceGoogleSearch: improve search engine selection (#2620)
+[33md61a930b[m Developer Documentation has moved to https://docs.vencord.dev
+[33mdf32e8d3[m fix missing space in MoreKaomoji (#2625)
+[33m62afad3e[m IgnoredActivities: Fix not ignoring in tracked activities (used in Content Feed)
+[33m87d3e30e[m web extension: fix vencord sometimes breaking after reloading
+[33m3d46f190[m bump to v1.9.1
+[33m6ce7fde1[m upgrade monaco (QuickCss Editor) to 0.50.0; fixes some syntax
+[33m18df66a4[m fix SpotifyControls
+[33me16c9ca7[m GameActivityToggle: Fix moving settings button outside
+[33m495da113[m fix Summaries
+[33m0b033aa5[m PluginManager: catch errors during plugin flux handlers
+[33mb9392c3b[m Improve SupportHelper
+[33m7dc1d4c4[m ReverseImageSearch: Fix duplicate find
+[33mc7e4bec9[m Plugin Page: add indicator for excluded plugins
+[33mdb148171[m Reporter: Test mapMangledModule
+[33md4ed7474[m Clean-up related additions to mangled exports
+[33md0704223[m Add wrapSettingsHook back; Fix FakeNitro subscription emoji bypass
+[33m3ce24102[m PluginModals: add plugin website & source code links
+[33m76f69125[m VoiceMessages: properly respect user's microphone choice (#2602)
+[33me9e789be[m fix NewGuildSettings
+[33m920f3260[m fix MoreUserTags (#2599)
+[33md12624ac[m Fix ShowHiddenThings
+[33m28ddadf7[m Fix CustomIdle
+[33md04ead7d[m FakeNitro: Fix theme bypass
+[33m7b625921[m Fix VoiceMessages
+[33m3505adad[m final batch of fixes ~ we are SO BACK!! (#2598)
+[33md19b0aeb[m second batch of fixes (#2596)
+[33md6f12094[m fix first set of plugins (#2591)
+[33mdb6b1f5a[m Fix plugins on stable
+[33m09812417[m Fix crashes & settings on canary
+[33mc1593e18[m Dearrow: fix ">" handling (#2582)
+[33me79430ca[m RelationShipNotifier: try to fix false positives for unavailable guilds
+[33mca810250[m ConsoleShortcuts: add `Stores` map with all stores
+[33m2f4e346e[m FixCodeblockGap: Fix broken patch
+[33me0e35058[m Discord code blocks can't have indentation
+[33mdc74d28b[m Reporter: Fix summary code blocks
+[33m0561bd19[m fix: ShowConnections patch; chore: Remove dead code
+[33m40c5ade8[m MessageLinkEmbeds: fix display when using compact mode
+[33m008227cd[m Bump to 1.8.9
+[33mfd2311db[m Fix broken patches
+[33m9de18ac8[m Experiments: add toggle for toolbar dev button
+[33m64025bc5[m MessageLogger: fix bugs with embeds & edits back to prev state
+[33m26f5e829[m o7 ResurrectHome - Home feature was removed from Discord
+[33maaba22f5[m ShowConnections: improve look in simplified prof; fix tooltip overflow
+[33m4bf28f46[m BadgeAPI: fix our badges not showing if there are 0 discord badges
+[33m50c45137[m RoleColorEverywhere: show role colors in the reactor list (#2490)
+[33m62830464[m fix showconnections in new profiles (#2567)
+[33m4ec01d0f[m disable UseEcoQoSForBackgroundProcess
+[33m65970618[m fix badges in new profiles
+[33m810ff894[m ui(RestartCard): fix yellow button now being blue (#2550)
+[33m914b211a[m betterRoleDot: fix click to copy role color in profile (#2551)
+[33m2c5079b4[m MessageLogger: fix potential error
+[33m239da032[m README: add shiggy background on github
+[33m5996e67c[m fix USRBG & ViewIcons in new profiles (#2557)
+[33m29c65948[m MessageLogger: add context menu option to clear channel history (#2008)
+[33m1bc9a800[m fix moreUserTags (#2563)
+[33m40db2f50[m AppleMusicRichPresence: add option to disable large/small image (#2562)
+[33mc54650b2[m customRPC: fix typos in settings descriptions (#2559)
+[33m43b6933f[m Reporter: Include page errors; load wasm chunks
+[33m0b611a29[m USRBG: fix in simplified profile (#2549)
+[33m5976d52c[m viewIcons: support new simplified profile (#2535)
+[33m9cafe808[m SpotifyControls: fix no artists on local files (#2543)
+[33m67b709a7[m new plugin NoOnboardingDelay: skip long onboarding animations (#2533)
+[33m0dac08c1[m PlatformIndicators: fix embedded (console) devices (#2546)
+[33mb88be801[m experiments: change toolbar help button -> dev menu
+[33me5e8b9ba[m new plugin CopyEmojiMarkdown ~ more easily copy emoji formatting (#2266)
+[33m0aa7bef9[m new plugin AppleMusicRichPresence (#2455)
+[33m9ab7b8b9[m experiments: remove obsolete isStaff patch; rename ServerProfile -> ServerInfo
+[33m23584393[m NoPendingCount: Fix for message requests
+[33med5ae2ba[m Add shortcut for lazy loading chunks
+[33m8fd5d068[m fix(css): brand-experiment is now brand-500
+[33m06824c27[m chore: security advisory link for blank issues [skip ci] (#2542)
+[33ma66138f1[m Bump to 1.8.8
+[33maa7eb770[m ShowHiddenChannels: Fix patch
+[33md07e4c71[m Make Reporter runnable in desktop
+[33m7ccd0735[m Fix ShowConnections & FriendsSince patches
+[33m2b565fed[m Make vencord-debug usable everywhere if user is pluginDev
+[33m05a40445[m refactor: improve build scripts & automatic testing
+[33m537fc5e3[m feat(API): updateMessage API for forcing re-renders
+[33m9b9a5322[m webpack: make window exports non enumerable
+[33mda01237c[m Summaries: update README
+[33m86aabe73[m add more flags for preventing background unloading
+[33ma78dba32[m ConsoleShortcuts: Fix autocomplete on lazies, add more utils (#2519)
+[33mb9e83d9d[m new plugin DontRoundMyTimestamps: round 7.6y -> 7y instead of 8y (#2060)
+[33m8131ca8f[m USRBG: support new simplified profile (#2501)
+[33m5b35d7c6[m fix occasional errors in Dearrow & ImageZoom
+[33mc2f88376[m new plugin: MaskedLinkPaste (#2514)
+[33mc431b7d2[m fix(MessageLogger): correctly mark markdown headers red (#2511)
+[33m8bda3a1e[m LoadingQuotes: more customization & custom quotes support (#1795)
+[33m6b489980[m Summaries: Fix start error if no summaries-data exist
+[33m41c5bbd9[m new plugin WatchTogetherAdblock: block ads in youtube activity (#2021)
+[33m9ec67181[m build: improve fileInclude plugin
+[33mc8362703[m fix minor bugs in various plugins
+[33m4f2c2b8e[m new plugin Summaries: show Discords AI-generated convo summaries (#2481)
+[33ma8e18f17[m ConsoleShortcuts: Start at Init
+[33m8f59cd8a[m Optimize slowest patches
+[33m1866e4d3[m Bump to v1.8.6
+[33m349169e6[m discord why tf would u roll back to 10 days old build???
+[33m77587728[m Revert removal of DevTools context menu fix
+[33ma0778f6a[m work around discord unloading in background
+[33m869e7111[m fix AnonymiseFilenames
+[33mb335df7f[m MessageLogger: fix edit logging
+[33mf686cba3[m Fix not setting property on originalOnChunksLoaded
+[33mf469060c[m Fix reporter false positive and DefaultExtractAndLoadChunksRegex not catching all cases
+[33mafd56820[m Revert "MessageLinkEmbeds: No longer need to reset global regex"
+[33m0751722a[m QuickReply: skip blocked messages if NoBlockedMessages enabled (#2476)
+[33m44d70812[m fix(MessageLogger): correctly blur spoilered images (#2433)
+[33m08d7de06[m ShowHiddenThings: more effectively explode Algolia filters (#2484)
+[33m9c092b9c[m feat(BetterRoleContext): Add option to view role icons (#2482)
+[33mf384fe6a[m fakeProfileThemes: settings UI improvements (#966)
+[33mdac2d752[m bump to v1.8.5
+[33m025508f1[m StartupTimings: Fix patch
+[33m0a595120[m Fix: Ignore bundled lib webpack on web
+[33m5f8b96dc[m Change duplicate find for SHC and VCDoubleClick
+[33ma94b88cd[m MessageLinkEmbeds: No longer need to reset global regex
+[33mb33b5bdc[m MessageLinkEmbeds: Add limit for nested links
+[33mbc8b4657[m chore: Make package manager version not strict
+[33meac8a026[m fix(PatchHelper): Make find and match more responsive
+[33md4373183[m Fix: PatchHelper not auto filling match field (#2338)
+[33mcaed7cd9[m MoreUserTags: If server owner tag is disabled, do not give other tags (#2219)
+[33m54e1bac6[m new plugin CustomIdle (#2342)
+[33m04a86490[m FriendsSince: Show in user profile modal
+[33m4e92612a[m ResurrectHome: Likely fix breaking latest messages in chat
+[33m8b0e7030[m ViewIcons: Fix Group Icons being clickable in channel list
+[33mc3757a2a[m add package for publishing types to npm (#2473)
+[33m54817ab5[m lastfmRPC: add setting to toggle "View Song" button (#2292)
+[33m5fc6ba86[m fix(replaceGoogleSearch): correct GitHub casing (#2471)
+[33m84e477f6[m Add missing README to new plugins
+[33m0b4b6031[m new plugin NoDefaultHangStatus (#2468)
+[33m60f8225b[m chore: Fix non standard plugin names
+[33m6547cc10[m FakeNitro: Fix attempting to bypass unicode emojis
+[33mffe1d7cc[m new plugin ReplaceGoogleSearch (#2450)
+[33m03d83e1f[m new plugin AutomodContext (#2290)
+[33m0c50e153[m FakeNitro: Fix & rewrite emoji bypass patches
+[33mc5e554e4[m ViewIcon: Replace regex find with string find
+[33mcddc811c[m feat(ViewIcons): Group & User DMs icons support (#2464)
+[33mfb19642d[m fix(readAllNotificationsButton): Mark threads as read (#2437)
+[33m4281b7a9[m ShowTimeoutDuration: Simplify tooltip style, allow changing style without reload (#2441)
+[33m09f89446[m MessageLatency: Fix wrong constant & false positive
+[33m7b4ecff6[m feat(MessageLatency): Show milliseconds option (#2454)
+[33mc0c897fc[m extractAndLoadChunksLazy: Cache result to avoid searching factories everytime
+[33m0460374a[m Fix: Plugins without start/stop function failing to stop/start (#2463)
+[33m54f58cd7[m Fix: Canonicalize regex finds
+[33mf74da730[m feat: Allow finds to use regex (#2452)
+[33m4da8b9aa[m PetPet: Fix Upload Image Option (#2461)
+[33mf4d64616[m feat(plugins/openInApp) Add tidal support (#2404)
+[33m4d572670[m new plugin ValidReply ~ fix "Message could not be loaded" (#2337)
+[33m1fea8420[m BetterFolders: Fix scrolling
+[33m46801de2[m chore: tidy up suggested vscode extensions list (#2221)
+[33m0e4724ec[m Settings: remove obsolete patch; add redundancy & more useful dbg copy
+[33m840d571c[m Fix BetterSettings & StartupTimings patch
+[33m97dd56cc[m MoreUserTags: Add chat moderator tag (#2424)
+[33m81d3f5df[m new plugin CtrlEnterSend (#1794)
+[33m5232a853[m new plugin NoServerEmoji ~ hides server emojis from autocomplete (#1787)
+[33md8b3869b[m ThemeAttributes: add larger avatar url variables to avatars (#2449)
+[33m719c6140[m fix Vencord Settings section being added multiple times
+[33ma54b55ed[m bump to v1.8.4
+[33m12376c62[m fix settings ui on canary
+[33md4ebfc23[m Make all RestAPI calls use Endpoints object
+[33m9dc8e4e2[m Properly ErrorBoundary recent changes
+[33m89216742[m MessageLogger: use discord variables instead of hardcoded colors (#2428)
+[33m5d049534[m FakeNitro: allow using subscription-locked emojis (#2456)
+[33mbd6f9e6f[m fix(MutualGroupDMs): properly pass props (#2457)
+[33m9621dc7b[m EmoteCloner: allow cloning from reactions (#2458)
+[33m59ee9c50[m feat(ShowHiddenThings): Remove Discovery banned/NSFW filters (#2453)
+[33mf6765818[m ValidUser: fix rendering old mentions when message is edited
+[33m1f1c80c5[m ValidUser: fix crashing when viewing a valid-userd staff's profile
+[33m902b6bcd[m PinDMs: ErrorBoundary renderChannel
+[33mfd7dafb1[m fix(MessageLatency): Adjust for Discord kotlin clients (#2443)
+[33m5c7fa557[m XSOverlay: Adjust message length timeout (#2445)
+[33mbbec51fd[m but here's the bumper (v1.8.3)
+[33ma9935450[m feat(Translate): add toggle for chat bar icon (#2418)
+[33md6507947[m Plugin Settings: fix text overflow for long plugin names (#2383)
+[33mf21db5cb[m add Native settings implementation (#2346)
+[33m0f9acba5[m settingsSync: include date in filename for better sorting
+[33mb22bfc80[m pronounDB: Update to API v2 (#2355)
+[33mcc5e39c9[m Dearrow: allow configuring which elements get dearrowd (#2414)
+[33mc55b0de3[m FakeNitro: Update description
+[33m207fe846[m CustomRPC: show warning when game activity is disabled (#2245)
+[33m9b328da4[m ThemeAttributes: add data-author-username to messages (#2422)
+[33m2eb8ba18[m SilentTyping: add chat input context menu option to toggle (#2386)
+[33m6b88eacc[m messageLatency: fix grammar & add aliucord/kotlin client tooltip (#2426)
+[33mfbaa4ad5[m XSOverlay: add settings for different notification types (#2055)
+[33m395b0007[m permissionsViewer: add role & user context menus to copy id (#2436)
+[33m1a3a378f[m ErrorBoundary some more components
+[33m14e68d9a[m im the dumbest dumdum
+[33m251ee32e[m new plugin ShowTimeoutDuration ~ shows how much longer a user's timeout will last
+[33ma2acce55[m BetterSettings: fix error handling crashing in some niche cases
+[33m840a8f1f[m CrashHandler: Increment timeout for trying to recover
+[33m6bd0898e[m fix(SupportHelper): dont flag vencord web as externally updated
+[33m02519353[m VoiceDownload: fix doing nothing on discord desktop app
+[33mb1cc67a8[m fix(BetterSettings): do not catch errors of other ui
+[33m6ad17ff7[m BetterFolders: Fix component erroring
+[33m449f9550[m bump to v1.8.2
+[33mdd3b7e53[m LastfmRichPresence: Add option to use album name as status name (#2400)
+[33m5c787145[m showHiddenThings: also show ModView & hidden discovery servers (#2415)
+[33m1317222c[m feat(plugin): VoiceDownload (#2280)
+[33md3acd7ed[m new plugin ReplyTimestamp: show timestamps of replied messages  (#2296)
+[33mefca196d[m new plugin MessageLatency: indicator for other people's latency (#2353)
+[33me2dc9e75[m new plugin WebScreenShareFixes: remove low stream bitrate limit (#2405)
+[33m21d2019e[m improve SupportHelper
+[33m53dda32f[m BetterFolders: Fix broken patch
+[33m799b903d[m Revert "messageLogger: fix niche bug ignoring edits when content is same (#2403)"
+[33m97acffaf[m fix useStateFromStores JSDoc
+[33m75847147[m FakeNitro: Add custom notifications sound bypass
+[33m0e66c4a1[m Fix subscribing to plugin flux events twice
+[33m72b17761[m upgrade nodejs & pnpm to latest versions
+[33mecf6af58[m FakeNitro: Make disableEmbedPermissionCheck setting not private
+[33m61235ce9[m ImageLink: Fix embed showing in gifs (#2417)
+[33m45c1e42c[m ReviewDB: Fix context menus being added to folders (#2416)
+[33ma090872d[m ImplicitRelationships: Properly test find
+[33m60e6fdac[m Resolve PluginSettings circular deps better
+[33mce18000c[m fix webpack patch on client using discordapp.com part 2
+[33m066b8722[m fix webpack patch on client using discordapp.com
+[33ma525cd01[m bump to v1.8.1
+[33m80b738ff[m Future proof FakeNitro and Experiments to not brick Discord startup
+[33mdfb06e47[m fix overflow when having two rows of badges
+[33m04d7cb87[m NewGuildSettings: add push notifs, highlights & events (#2413)
+[33ma6c09bc9[m feat(ValidUser): also display badges & banner (#2235)
+[33ma98f12bd[m SecretRingToneEnabler: Fix patch
+[33m54bb7b96[m Test Patches: Remove pnpm add puppeteer as it's already in deps
+[33m1ef87361[m Test Patches: Faster chromium setup; Update action versions (#2412)
+[33m0350db76[m feat(plugin): ImageLink (#2297)
+[33m520e9151[m fix badges with custom component
+[33m78183eb2[m MsgClickActions: control ping via shift & NoReplyMention plugin (#2390)
+[33m1af44b25[m feat(USRBG): update to new API (#2388)
+[33m315f4f4e[m ReviewDB: add more context menu shortcuts to view reviews (#2382)
+[33m03d7e0fb[m fix sort conflict of ImplicitRelationships & SortFriendRequests (#2408)
+[33m84c53b4a[m MoreUserTags: Remove old workaround; MessageClickActions: Move finds outside of start
+[33m86b53b24[m feat(plugin): PauseInvitesForever (#2372)
+[33m85d6d74a[m messageLogger: fix niche bug ignoring edits when content is same (#2403)
+[33ma055b1d4[m refactor(Webpack): more reliable patching (#2237)
+[33m0a598ae9[m fix FriendsSince
+[33mf54dcb74[m improve contributor modal & badge
+[33m5bc20ba1[m NoTrack: Option to keep analytics, improve patches
+[33m7af733c7[m RoleColorEverywhere: Actually fix patch
+[33m0f7e60b2[m ResurrectHome: Fix patch
+[33m761e6b39[m RoleColorEverywhere: Fix patch
+[33m51729c82[m Bump to 1.8.0
+[33m6d01093e[m fix(fakeNitro): Use getEmojiURL as emoji.url was removed (#2401)
+[33m97886e57[m BetterFolders: Fix patch; MessageLogger: Ignore Venbot; ReviewDB: Clean migration code
+[33m840c775e[m fix(ImplicitRelationships): Use new Flux event (#2392)
+[33md2941281[m Bump to 1.7.9
+[33m304bc966[m RoleColorEverywhere: Fix patch again
+[33mfafd46d2[m FriendsSince: Remove workaround for stable compatibility
+[33mc10466f6[m MoreUserTags: Fix patches
+[33m36327ebd[m PronounDB: Fix patch
+[33m4fce88fa[m Fix OnePingPerDM and RoleColorEverywhere patches (#2387)
+[33m9e0aa4b2[m feat(plugin): StreamerModeOnStream (#2320)
+[33md55205c5[m feat(plugin): ImplicitRelationships (#947)
+[33m6a69701b[m fix ValidUser (#2381)
+[33md5f70070[m fix badges
+[33m7f0e7dd0[m fix FakeProfileThemes
+[33m5cf014cb[m New Plugin: BetterSessions (#1324)
+[33maf67ddef[m ShowTimeouts->ShowHiddenThings ~show invite-disabled tooltip too (#2375)
+[33m8f73b9fd[m Make Updater slightly more future proof
+[33m0bebc85b[m fix FriendsSince on canary
+[33m74df53e7[m ValidUser: fix not working for @unknown-user mentions
+[33m87ef2148[m RoleColorEverywhere: fix chat mentions
+[33m5aa19bbf[m fix ValidUser (#2369)
+[33m97ce410f[m bump to v1.7.8
+[33m82d914e6[m CustomRPC: fix preview styles
+[33m0c6ddf80[m ShowConnections: fix icon theme logic
+[33m89c82e2c[m fix settings patch
+[33m538b8706[m bump to v1.7.7
+[33m23b0841c[m fix ShowConnections
+[33m3a79e41d[m fix MessageLogger (#2358)
+[33m356a2c29[m fix: RoleColorEverywhere, PictureInPicture, NoMosaic (#2356)
+[33m52f8a85a[m fix(FavoriteEmojiFirst): don't lower suggestion count on hover
+[33m0f5a75aa[m bump to v1.7.6
+[33m99f523b8[m fix extractAndLoadChunks for when there are no chunks to be loaded
+[33m00427c53[m fix pronoundb
+[33m59fc922a[m viewIcons: fix for banners (#2351)
+[33maf7d1b9d[m fix ShowMeYourName (#2354)
+[33me5bd5534[m Fix SpotifyControls
+[33m89dc74d5[m partially revert "Array support for find + ResurrectHome: View Server Home Button on Server Guide (#2283)"
+[33m5636f9d9[m Array support for find + ResurrectHome: View Server Home Button on Server Guide (#2283)
+[33mdc4c678a[m bump to v1.7.5
+[33m7fa12598[m NoMosaic: make loading image work with responsive layout (#2095)
+[33m34c74b43[m new plugin UnlockedAvatarZoom: allows crop zooming in further (#2287)
+[33m38ffdd7d[m FriendsSince: Add icon to be consistent with "member since"
+[33m26f3618c[m TypingIndicator: Add an option to show user avatars (#2319)
+[33mae01e88e[m EmoteCloner: fix low quality; don't count managed emojis (#2321)
+[33m3ecd2dea[m plugin settings: fix filter dropdown having no padding (#2332)
+[33mcba611c1[m Better error for primitives on proxyLazy + fix StartupTimings (#2339)
+[33me0becc1b[m ShowHiddenChannels: Fix incompatibility with favorite channels experiment
+[33mc311155d[m PinDMs: Fix unexpected behaviours when using last message sort (#2324)
+[33m778d79cd[m Fix MutualGroupDMs and UserVoiceShow patch
+[33m18d47806[m fix(MessageLinkEmbeds): Actually disable when disabled (#2323)
+[33m88f353e7[m ResurrectHome: Fix Force Server Home patch
+[33mc623e447[m ReviewDB: Fix website url (#2318)
+[33mb158cecd[m FakeNitro: Fix sending unavailable emotes of the current server
+[33m69b349da[m fix minor updater bugs
+[33m650f4050[m fix(PinDMs): display properly when there are 0 unpinned dms (#2281)
+[33m60f66781[m Decor: Fix find targetting wrong module in some cases
+[33mbdef47eb[m Bump to 1.7.4
+[33m7fe718a0[m FakeNitro: Make Soundboard sounds not require boost level
+[33m126023f8[m ShowHiddenChannels: Fix patches
+[33m762684a1[m Fix more patches
+[33m74c38146[m Fix BetterSettings patches (#2307)
+[33m2f07dc23[m fix BetterGifPicker, Experiments
+[33m344f8c9f[m Fix DisableCallIdle
+[33mec344121[m Fix store finds
+[33mde9122b0[m fix ImageZoom, LoadingQuote, NoRPC, RevealAllSpoilers, SecretRingTone (#2306)
+[33m82ab3ad1[m i may be stupid :3
+[33me71fcc30[m Fix FakeNitro
+[33mc997ff7a[m Fix lazy chunk force loading
+[33m6c711e27[m Fix PinDMs
+[33mb1009baf[m Fix MessageLogger
+[33m74b6ceee[m Fix WhoReacted
+[33m8ab56f5b[m ReadAllNotificationButton: make button less ugly
+[33m0d22ff00[m webpack: fix infinite recursion when using ConsoleShortcuts plugin
+[33m31c21594[m Reporter: Ignore another useless error
+[33m0983a038[m Fix broken patches
+[33me1f8b3cb[m UserVoiceShow: Fix UserPopout patch stealing predicates from another component
+[33m8d35cc61[m BetterNotes: Fix patches
+[33mca18b6e0[m Fix CloudSync
+[33mcaa14ece[m bump to v1.7.3
+[33mec66c35d[m MessageLinkEmbeds: Load embeds from newest to oldest (#2230)
+[33m1cb295b1[m new plugin: OverrideForumDefaults (#2272)
+[33m5646fe40[m feat(PatchHelper): Paste Full Patch (#1982)
+[33m2ce34874[m PinDMs: add category support & fix bugs (#2203)
+[33m55901ba3[m AlwaysTrust: Add options for each popup (#2234)
+[33m04d5423b[m fix(AnonymiseFileNames): anonymise files in forum posts (#2270)
+[33m021948c9[m WhoReacted: fix scroll jumping when rendering users (#2271)
+[33m3e332a60[m fix RestAPI find
+[33m0d5f4928[m fix ReviewDB
+[33mae9435ac[m MemberCount: Fix error when not in a channel (#2277)
+[33m90ee07fd[m emoteCloner: fix cloning gif stickers (#2268)
+[33m356d8d8e[m feat(MessageLogger): Add delete & edit toggle (#2032)
+[33m23aeb212[m fix ViewIcons & Decor patches
+[33m6140b958[m new plugin: BetterSettings ~ improves Discord's settings (#2222)
+[33mf3ee43fe[m favGifSearch: don't error on favourited non-urls (#2260)
+[33mafdcf0ed[m refactor shared utils to more obviously separate contexts
+[33m9aa205b5[m rewrite settings api to use SettingsStore class (#2257)
+[33m7190437e[m rename Devs.obscurity => Devs.fawn :3
+[33mbf9a2250[m HTTP Updater: Only include first commit line
+[33m6a7657de[m Remove getGuildRoles
+[33m6e363814[m ResurrectHome: Fix README image
+[33m2730eada[m Bump to v1.7.2
+[33mf9924d55[m new Plugin: FriendsSince ~ shows friend date in profiles (#2240)
+[33m1fbc4f7c[m fix(ServerProfile): crop banner to prevent overflow (#2250)
+[33m34390e03[m Add workaround for guild role api changes on canary/ptb
+[33m497f0de9[m chore(Decor): Change URL formula for cost savings (#2247)
+[33m99253324[m RoleColorEverywhere: Wrap roleGroupColor in ErrorBoundary
+[33mb0d37c98[m Bump to 1.7.1
+[33mcf7830e7[m ShowHiddenChannels: Fix patches
+[33m10f33b3d[m Make more finds use filters.componentByCode
+[33m688ff255[m fix(MutualGroupDMs): update regex (#2242)
+[33m2e90d4c0[m New plugin: BetterRoleContext ~ edit/copy colour shortcuts in profile
+[33m1c1d82f9[m VencordToolbox: don't subscribe to all settings
+[33m102842d5[m Close Ipc FS watchers if window is closed
+[33m19799767[m Fix trying to check for updates if origin doesn't have same branch
+[33mf7011423[m MemberCount: Add options to choose where the member count will be displayed (#2224)
+[33ma59c14f9[m CustomRPC: Change timestamp to milisecond (#2231)
+[33m980206d3[m Fix waitFor initial finds traces getting logged to the console even though they always fail
+[33m42a9fa2d[m Refactor ContextMenuAPI (#2236)
+[33m612fdf89[m FakeNitro: Fix trimming wrong content
+[33m4f0c0a12[m feat(plugin): ResurrectHome (#2232)
+[33m23ff82fa[m FakeNitro: Remove extra space in modal
+[33m553a48b6[m FakeNitro: Fix hyperlink text setting for stickers
+[33m806960f1[m ClientTheme: do not use lodash on start method
+[33m1a1156e1[m Add more settings to IgnoreActivities (#2153)
+[33m9179f55b[m fix Vencloud not working on UserScript (#2213)
+[33m3ebde1aa[m fix some minor bugs
+[33mda50c7a1[m MemberCount: Also add to server tooltip; refactor code
+[33m7de54a29[m Fix NotificationVolume
+[33me0166ef1[m Fix FakeNitro patch and message content patch error
+[33m8ccd731a[m bump to v1.7.0
+[33m1afa185f[m LastfmRichPresence: Add an option to hide the Last.fm logo (#2189)
+[33m76de8c42[m feat(plugin) FakeNitro: Allow customising hyperlink text (#2192)
+[33med5e1be7[m Add permissions checks for FakeNitro actions (#2160)
+[33m27696ed6[m whoReacted: fix reaction count being off by one (#2209)
+[33mb9d0a1c5[m SpotifyControls: fix seekbar grabber alignment
+[33m5e7b4e9c[m SpotifyControls: export album cover as CSS variable for themes (#2197)
+[33m9958f5a2[m Fix ReviewDB
+[33m414184ef[m ImageZoom: negate the border offsetting the lens (#2117)
+[33m2d8715ad[m SuperReactionTweaks: only super react by default if user has nitro
+[33me3fd9545[m Fix Decor patch
+[33mf922f0bc[m fix reviewdb auth not working on userscript (#2194)
+[33m604f4c49[m VoiceMessages: Add warning if audio file is not OggOpus
+[33mc3030bba[m MuteNewGuild -> NewGuildSettings; add 'show all channels' option (#2065)
+[33m7b960716[m fix ImageZoom patch (#2181)
+[33ma501da69[m MessageLinkEmbeds: fix group dm support, improve ui
+[33mbc0a5505[m MessageLinkEmbeds: fix erroring on some invalid message links
+[33m89367e3b[m WebContextMenus: fix copying images
+[33mf1bdf385[m Bump to 1.6.9
+[33m93b2095d[m Fix FakeNitro hyperlinks not working sometimes
+[33m46ee193c[m Fix MessageLogger edit Timestamp component
+[33m48822bdc[m Attempt to fix CrashHandler odd issues
+[33m0c9d2a6a[m Fix plugins using the Timestamp component
+[33m8b6a4031[m Bump to v1.6.8
+[33m38beb93e[m Fix CrashHandler failing to recover and showing gray screen instead
+[33mcc0d9a90[m Fix UserVoiceShow patch
+[33md3bbd2c0[m FakeNitro: option to use hyperlinks or not
+[33m558c2a0b[m Make PermissionsViewer and ShowHiddenChannels default dropdown change when clicked
+[33m237f0804[m DisableDMCallIdle -> DisableCallIdle; add more functionality
+[33mb2c04739[m FakeNitro: Send fake links using Discord hyperlink markdown feature (#2158)
+[33mf1f0da4a[m fixYoutubeEmbeds: fix when youtube decides to use http without s (#2155)
+[33m935d0a0a[m Fix broken patches and finds
+[33ma1084482[m Improve DisableDMCallIdle
+[33m3325a8de[m Fix FakeNitro patch
+[33m377def4a[m Fix crash when toggling chat button plugins without restart
+[33mde570a48[m inject: suppress ugly node error
+[33m685b6f2f[m Improve PreviewMessage icon; make button padding/margin more consistent
+[33m7592b5c1[m Fix devtools context menus on canary
+[33m8b3189f1[m fixYoutubeEmbeds - Support locales other than english (#2128)
+[33m115da047[m clearURLs: add music.youtube.com (#2118)
+[33mec53b023[m readAllNotificationsButton: also mark voice channels as read (#2140)
+[33m64fa2f86[m ChatButtonApi: do not add buttons if you can't send messages
+[33me58aa5db[m Translate: Add auto translate enable alert
+[33m2c198e54[m Fix PreviewMessage icon being offcentre
+[33mbf977e00[m Add chat bar button api ~ fixes buttons for russian users
+[33m8938f4a3[m fix moreUserTags (#2146)
+[33mcc885b5b[m remove lumap
+[33m620c127b[m [skip ci] fix pnpm inject
+[33m4bb0db50[m fix anonymiseFileNames (#2125)
+[33me707538b[m [ReviewDB] update for new api changes; some fixes (#2120)
+[33m16707334[m feat(plugin): FixYoutubeEmbeds - fix UMG blocked embeds (#2116)
+[33m98843571[m Add back transparency option
+[33m74300e0a[m WebContextMenus: only force png on copy image, not save image
+[33m3d64f3da[m WebContextMenus: fix copying images
+[33m8a168bd1[m bump to v1.6.7
+[33me8e09c17[m ClearURLs: Add igsh (#2103)
+[33m11d31650[m roleColorEverywhere: thread role color (again) (#2098)
+[33m60bc823e[m new plugin: BetterGifPicker (#2108)
+[33mf14001b5[m ClientTheme light mode support, shortcut buttons (#2010)
+[33m1a982ae9[m feat(anonymisefilenames): add icon to toggle anonymising (#2087)
+[33ma171b35e[m ReviewDB fixes
+[33m8bd54173[m Bring back ReviewDB (#2097)
+[33m2ab1c50c[m QuickCss: reopen existing window instead of new one
+[33m69a4d273[m fix(git updater): correctly persist isDev switch
+[33mcb7045c0[m WebContextMenus: use vesktop native clipboard - fixes some permission issues
+[33m8c890028[m forgor not everyone uses enlgihs
+[33mba6d23a3[m fix adding View Raw to undesired channel context menus
+[33mba2695b4[m Add FixCodeblockGap plugin (#2064)
+[33md73790ef[m bump to v1.6.6
+[33m0d6bb350[m TextReplace: allow replacing with nothing (#1933)
+[33md5c58ab2[m updater: Add top and bottom margins between commits (#2042)
+[33mbe9ec3b7[m SendTimestamps: add setting to disable message replacement (#2076)
+[33m6530526f[m Updater: Fix grammar (1 Updates => 1 Update) (#2084)
+[33m13961a4b[m ReverseImageSearch: add support for image modal
+[33m4d198e46[m fix wrongly patching 'Events' context menu
+[33m3eada99a[m fix(ToolBox): don't add entries of disabled plugins
+[33m88fc1575[m webContextMenus: add Show My Camera item (#2086)
+[33m9e810e55[m fix cobu sync
+[33m4a1c85c8[m Decor: only search for DecorationModalStyles once
+[33m1eb25103[m feat(Decor): Enforce guidelines more (#2035)
+[33ma963a19b[m fix(Decor): Fix AvatarDecorationModalPreview find (#2089)
+[33md0dfdbbd[m fix: Vencord_cloudSecret check (#2077)
+[33m7e395fc6[m Update codeburger mirror
+[33m30bc979c[m feat(Urban Dictionary): Chooses top rated definition & more results. (#2080)
+[33m5dee2e85[m Future proof reporter to work in latest canary
+[33m109d842e[m Fix NSFWGateBypass possibly Vencord
+[33m686f2d92[m fix canary crashing
+[33mfdf3480b[m Fix DeArrow patch
+[33m2e04b3d1[m Implement Twitter easter egg for ShowConnections (#2062)
+[33m9950bf00[m GameActivityToggle: option to use old icon
+[33m467c5e0c[m Delete FixImagesQuality
+[33m2cd82944[m Move commons from discord utils; Make ThemesTab use invite modal util
+[33m2f1dc2c7[m reporter: fix icon
+[33ma5442d87[m Fix reporter and AlwaysAnimate patch
+[33ma8b0ce6f[m fix(notrack): murder sentry
+[33mb3295912[m TypingIndicator: setting to disable for current channel (#2043)
+[33m2cf52d07[m AlwaysAnimate: Add guild banner (#2036)
+[33m40b3ec57[m FakeNitro: fix non apng gif stickers being sent as images (#2050)
+[33m817cb9b6[m GameActivityToggle: Icon cleanup (#2041)
+[33mc86de329[m fixAll.eslint: `true` -> `"explicit"`
+[33m1df0b571[m Fix broken patches
+[33m6d911790[m oneko: allow oneko in reduced motion (#2018)
+[33mc9f7cf75[m ci: test all branches
+[33ma9568bc0[m reporter: fix bad logic
+[33m539e538d[m commandHelpers: use MessageActions import
+[33m799e6e72[m platformIndicators: fix (#2038)
+[33m510bfb8f[m ReactErrorDecoder: fix using wrong react version's error map (#2040)
+[33m534ca1e2[m fix: createBotMessage (#2033)
+[33md629281e[m bump to v1.6.5
+[33m34cbb22e[m feat: add dropdown to choose vibrancy value on macOS (#1941)
+[33m6ee50d30[m fix(dearrow): remove > from DeArrow titles (#1999)
+[33mfd9c6759[m fix: patch helper overflow (#2007)
+[33m92025295[m shikiCodeBlocks: support file preview (#1977)
+[33me4942397[m MessageClickActions: Ignore Ephemeral & Deleted Messages (#1972)
+[33m9faa1331[m new plugin: notificationVolume (#1992)
+[33m613b2dc5[m Fix QuickMention not working in DMs (#2028)
+[33m9a89f7b3[m feat(plugin): XSOverlay (#1901)
+[33mc0b6d8f1[m devCompanion: add findComponentByCode (#2026)
+[33m3453d0c9[m feat(clearUrls): moar twitter rules (#2029)
+[33mcf702833[m Native Folder Support (#2031)
+[33m08036f7a[m convert non lazy finds to test with reporter
+[33m9dd00fb7[m Fix SuperReactionTweaks patch
+[33m80016180[m FixImagesQuality: no longer make gifs play when autoplay is off
+[33m3e7d9462[m fix(SpotifyControls): Requests double-sending when using Spotify Connect (#2023)
+[33mfccdd3dc[m migrate to new badge api
+[33m8e1546be[m Include ignored Discord errors in summary
+[33m66dbe7ef[m Fix reporter testing for extractAndLoadChunks
+[33mb47a5f56[m feat: Add Decor plugin (#910)
+[33m8ef1882d[m use findBulk on CrashHandler and cleaups
+[33m9945219d[m openInviteModal utility
+[33m091d29bf[m CrashHandler: attempt to prevent more crashes
+[33m9b6308a8[m Fix a console shortcut and suppressExperimentalWarnings on more scripts
+[33m597a74ff[m ClientTheme: make color picker finder more specific
+[33mf814eeb7[m VoiceMessages: fix preview being blank
+[33m1619ee40[m Utility function for loading Discord chunks (#2017)
+[33m1b179f3c[m Simplify some components finds; Make undo of patch groups more clear
+[33m6573c475[m fix: strikethrough in SilentMessageToggle's disabled SVG (#2004)
+[33mec16fd87[m fix ci
+[33m6bbf562a[m bump to v1.6.4
+[33m604cf002[m reporter: fix markdown output
+[33m7c3b247d[m fix WebContextMenus
+[33m68fca785[m reporter: test dev instead of main
+[33m598ffe63[m reporter: remove sleeps
+[33m534565db[m Add webpack find testing (#2016)
+[33m3e8e106b[m Fix broken patches
+[33mfdddfdb0[m feat(plugins): FixImagesQuality
+[33me14fba28[m ClearURLS for x.com links (#2005)
+[33m81fb7c63[m add back code that got lost
+[33mf39f16d3[m fix circular import bricking browser version
+[33m0f74817e[m Fix broken SHC find
+[33m4832a943[m fix broken webpack finds
+[33m6f05612e[m Remove obsolete webpack hacks
+[33m9efc0ff5[m Remove obsolete nested webpack search
+[33m63451bad[m Remove obsolete mapMangledModule ~ modules are no longer mangled
+[33m68697056[m beef up ConsoleShortcuts
+[33ma2560ede[m fix showConnections & better webpack errors
+[33m93a95b6d[m feat(patcher): Grouped replacements (#2009)
+[33m7b24c8ac[m move new webpack methods to more appropriate file
+[33mb21b6d7e[m Make it possible to destructure lazy webpack finds
+[33mffe65126[m Improve component finding api and migrate plugins to use them
+[33m371b5b0b[m allow plugins to specify how soon their start() method is called
+[33m074ebae3[m ClientTheme fixes
+[33m6face7f8[m feat(plugin): ClientTheme (#807)
+[33m2f1e86f3[m TypingIndicator: support threads
+[33m18d63af2[m PermViewer: Use role pill border conditionally
+[33m6ab4cf0a[m Fix broken patches due to unread changes
+[33m9980c0d0[m IgnoreActivities: fix and improvements
+[33m4a5371a7[m Update README.md
+[33m77749ed5[m oneko: update script version (#1994)
+[33m45aa9fbb[m Fix hljs find (#1983)
+[33m4a2657f9[m fix(channeltags): message author should be clyde (#644) (#1986)
+[33m6578eb48[m MessageLogger: fix attachment ignore (#1989)
+[33mc080a0ea[m shikiCodeblocks: transform lang to lower case to avoid failing detection (#1990)
+[33m3ea6a967[m chore: Fix PinDMs patch (#1981)
+[33maf614465[m Remove obsolete experiments patch
+[33m7b248ee3[m Fix SHC patches
+[33mfd25b5f2[m fix(dearrow): support DeArrow thumbnail submissions at 0 seconds (#1979)
+[33m77d08c5c[m feat: Add Environment variable to disable updater auto-patching (#1971)
+[33mea11f224[m README: Add sponsors
+[33m96126fa3[m remove pipebomb from github actions (#1968)
+[33m9bd82943[m [Plugin] Super Reaction Tweaks (#1958)
+[33m5edc9406[m make packageManager key less specific
+[33m394d2060[m searchReply: fix (#1961)
+[33m119b628f[m feat: simple plugin natives (#1965)
+[33m32f20431[m Fix FakeNitro sticker bypass (#1964)
+[33m04d2dd26[m fix(dearrow): don't replace thumbnail if only original available (#1959)
+[33m86e94343[m bump to v1.6.3
+[33mdd44ac1a[m OpenInApp: Support podcasts
+[33m370b3d36[m OpenInApp: Fix links in messages
+[33ma67c7f84[m Fix ViewIcons correctly
+[33m2c979320[m Revert "Fix ViewIcons"
+[33ma2579266[m customRpc: fix discord attachment link (#1949)
+[33m77659be4[m fakeNitro: disallow emoji in add reaction (#1954)
+[33m37b9a624[m favGifSearch: fix search bar (#1955)
+[33m7f73e133[m docs: point people to advisories for security bugs (#1957)
+[33mfcf2bdda[m fix TypingTweaks
+[33mfa9da2d6[m noMosaic: play video inline + optional media layout type (#1946)
+[33m44b21394[m gifPaste: fix unable to use gif picker in profile customization (#1947)
+[33m27fffc8b[m Fix ShowMeYourName
+[33m098da8c3[m Fix ViewIcons
+[33m9cf88d42[m Fix MessageDecorationsAPI
+[33mdd61b0c9[m bump to v1.6.2
+[33m5dc0d06b[m EmoteCloner: make the error toasts useful (#1938)
+[33m9de6c2d4[m previewMessage: fix button (#1919)
+[33me37f62ac[m imageZoom: dont close carousel modal on image click (#1926)
+[33m56a9d79f[m PiP: fix issues / styles (#1927)
+[33m9d78233a[m Fix displaying BetterFolders sidebar when watching streams in fullscreen
+[33m9af2ec65[m OnePingPerDM: fix server pings
+[33m584885ac[m [skip ci] Revert "add react linting"
+[33m18fdc33e[m [skip ci] add react linting
+[33m522fdcd1[m WebKeyBinds: Fix & make available on ArmCord
+[33maf135b92[m Fix AlwaysAnimate
+[33m4b958d17[m Fix BetterFolders freeze and add new options (#1923)
+[33mbfb48b4f[m BetterFolders: Option to choose whether to keep guild icons (#1918)
+[33m9dd8e722[m fix: PiP replacing video download button (#1910)
+[33maae790f1[m vencordToolbox: correct hover color + oneko (#1913)
+[33m7f17e706[m noSystemBadge: fix (#1914)
+[33mb3311c6f[m BetterGifAltText: Fix displaying undefined
+[33mbc092252[m Add missing patches predicates to BetterFolders
+[33m9ce923d4[m Fix BetterFolders
+[33m7845af08[m Remove hacks to support no longer active versions of Discord
+[33m89672882[m PermViewer: Fix incorrectly displaying some role names as Unknown Role
+[33me05c630a[m SHC: Make Chat Input Bar channel list include hidden channels
+[33m38834ef7[m Fix git updater
+[33m98d49af7[m Fix git updater for other branches (#1915)
+[33m0afe3191[m fix typo in multiple files (#1911)
+[33ma9e67e29[m Bump to v1.6.1
+[33m1676956f[m Fix hidden channels triggering the unread box
+[33m8692109b[m Add comments to some SHC patches
+[33m0847f205[m Fix some hidden channels not collapsing
+[33m2f94e167[m noProfileThemes: fix usrbg compatibility (#1905)
+[33m589c0707[m fix not removing vencord 'chunks' from webpack
+[33m8567ff62[m Little bit of SHC cleanup
+[33me4701769[m Fix entry webpack modules not being patched
+[33m25f10160[m fix modules being patched multiple times
+[33m85bfa1e7[m Fix duplicated WebContextMenus find
+[33mb48998d4[m More accurate ShowAllMessageButtons patch
+[33m6d605050[m Fix BetterNoteBox
+[33m07c4a097[m Fix EmoteCloner (#1907)
+[33mc1de4143[m Fix plugins using promptToUpload (#1908)
+[33m64c6f574[m Fix FakeNitro completely (#1903)
+[33m03523446[m silentTyping: fix showIcon toggle (#1898)
+[33m25dc25c7[m Fix VoiceMessages
+[33m8ac80488[m fix: ImageZoom + PiP (#1894)
+[33mffe6bb1c[m Bump to v1.6.0
+[33m74faaa21[m Fix PlatformIndicators colorMobileIndicator
+[33ma6b8b59d[m fix: shikicodeblocks, betterroledot (#1895)
+[33m9eaeb241[m fix: RoleColorEverywhere (#1884)
+[33m6b28e5ad[m Partially fix FakeNitro
+[33md852393c[m fix UserVoiceShow
+[33m0c12500c[m Fix: noUnblockToJump (#1893)
+[33m15020244[m Fix iLoveSpam
+[33m45fa4f89[m Fix NoScreensharePreview
+[33m96dff84e[m Fix PlatformIndicators
+[33mc1b87391[m Fix RevealAllSpoilers
+[33m2183d2d2[m fix TimeBarAllActivities
+[33m722dcb03[m Fix RelationShipNotifier
+[33m53cd1484[m Fix MessageLogger (#1888)
+[33m38daf6ec[m ImageZoom: fix typo (#1832)
+[33m635b80c5[m fix: NoPendingCount (#1886)
+[33mec9e1110[m fix: (rewrite) SecretRingToneEnabler (#1887)
+[33md54f8b5e[m fix: BANger (#1885)
+[33m09a922a0[m Fix MuteNewGuild
+[33m23963f40[m Fix IgnoreActivities
+[33ma41abfef[m Fix MemberCount
+[33mddee3e12[m Fix VencordToolbox
+[33m6c4afa52[m Fix titlebar duplication with native Windows titlebar (#1890)
+[33mce6081c3[m Merge branch 'main' into dev
+[33m123853e8[m Fix ShowHiddenChannels
+[33m0c6445b6[m fix reporter
+[33m70943455[m fix lintttttttttttttttttt :3
+[33m148a3209[m Fix PronounDB in profile
+[33mab1b002e[m TypingTweaks: fix (#1883)
+[33mc7a20769[m fix things using lodash (#1882)
+[33m9c13befc[m fix: ServerProfile (#1881)
+[33m3fdd0edf[m Fix InvisibleChat
+[33m2169090c[m Fix SpotifyCrack
+[33m5e13de72[m fix: BlurNSFW (#1880)
+[33m3a7c2725[m Fix PermissionFreeWill
+[33m465a87f6[m Fix ColorSighted
+[33m13c59f47[m fix: MutualGroupDMs (#1879)
+[33m0d7157dd[m Fix BetterNoteBox
+[33m88c6e2a0[m Fix PermissionViewer
+[33m535d510d[m Fix LoadingQuotes
+[33mcbc23b1b[m Fix BetterGifAltText
+[33maa2a57b7[m Fix Dearrow
+[33mc3ccbbfa[m Fix SpotifyControls
+[33m685f44d4[m Fix OpenInApp
+[33m8f000977[m Fix ViewIcons
+[33mf385dc38[m fix whoreacted, betteruploadbutton (#1877)
+[33mbb900785[m fix: ShowAllMessageButtons (#1876)
+[33m61fac0a8[m fix: NoPendingCount (#1871)
+[33m1a607639[m fix: greetStickerPicker (#1874)
+[33mc90440f0[m Fix Settings Proto
+[33mbaf95251[m Fix InvisChat, PreviewMsg, SendTimestamps, SilentMsg, SilentType, Translate
+[33mfbc50383[m fix: RPC plugins (#1873)
+[33mddc39fe8[m Fix SettingStores, GameActivityToggle
+[33m4f8c7537[m fix: NoBlockedMessages (#1870)
+[33m024a77c5[m fix: typingIndicator
+[33m1130521e[m Fix WebContextMenus
+[33m3bd65761[m fix: StartupTimings (#1869)
+[33mb659d4e9[m fix: FavoriteEmojiFirst (#1844)
+[33m9c60b38a[m Fix PinDMs, SMYN, SilentTyping, ValidUser, PlatformIndicators (#1865)
+[33mc5dd50ad[m fix messageLinkEmbeds, moreUserTags (#1859)
+[33m131e91a3[m fix: AlwaysTrust (#1868)
+[33m06b4dffa[m forceOwnerCrown: fix (#1858)
+[33m3917193e[m fix: ImageZoom (#1864)
+[33m8d1561ae[m fix: NoticesAPI (#1863)
+[33mcf3c28e1[m fix: onePingPerDM (#1867)
+[33maf1aa396[m Delete RNNoise - Krisp is now on web, so this is obsolete
+[33m7de1b5dc[m fix: sortFriendRequests patches (#1848)
+[33mcd069800[m fix: pronoundb profile popout (#1860)
+[33me69236c5[m fix(vcDoubleClick): update for new discord build (#1862)
+[33m2478ffb6[m fix userutils (#1861)
+[33m788d22f9[m MessageDecorationsAPI: fix
+[33mb69ac1cd[m Fix PlatformIndicators
+[33m892a79b2[m fix: CommandsAPI
+[33m98955409[m MemberListDecoratorAPI: Fix
+[33m7e0fc1d0[m ServerListAPI: fix
+[33mbb771153[m MessageEvents: Fix
+[33m65d39dcf[m ShowConnections, NoProfileThemes: Fix (#1854)
+[33mcf5e93ee[m fix: fakeProfileThemes (#1837)
+[33m4d8e4e62[m fix: notrack failing patches (#1857)
+[33mcb2532d2[m disableDMCallIdle: fix (#1856)
+[33m8c998b93[m experiments: fix (#1855)
+[33mfb22c57d[m MessageAccessoriesAPI: Fix
+[33m554bb18e[m BadgeAPI: fix
+[33m44c96757[m ContextMenuApi: fix
+[33m322ecc5e[m usrbg: fix (#1853)
+[33m7ee9a8bb[m SpotifyControls: Fix
+[33m69b54535[m Fix NoTrack
+[33m2a56081b[m callTimer: fix (#1850)
+[33mbaa7d8c0[m noDevToolsWarning: fix (#1851)
+[33m940193c3[m noMosaic: fix (#1849)
+[33m09b646b8[m fix: PictureInPicture (#1839)
+[33m922e3ce6[m fix: FavoriteGifSearch (#1842)
+[33mcb93c11e[m Fix CustomRPC (#1846)
+[33m4beef9f7[m fix: ComponentDispatch and GifPaste plugin (#1843)
+[33m4da79abb[m Fix components filter
+[33m4e27722b[m fix webpack patching
+[33m97c0face[m PinDMs: Fix canary crash
+[33m1a1d9b07[m Fix canary crashing (#1833)
+[33m4a2def03[m Fix MessageDecorationsAPI patch
+[33m544edce9[m bump to v1.5.8
+[33me4485165[m onePingPerDM: add settings (#1802)
+[33mfada76ec[m PlatformIndicators: make size same as other memberlist icons (#1789)
+[33mf659c460[m FakeNitro: Add app icon customization (#1822)
+[33mae1dc4ea[m Make reporter ignore useless Discord errors (#1829)
+[33mfe60a72b[m Fix NoPendingCount patch
+[33m5a0b2ee3[m Fix FakeNitro patch
+[33m6c1b8b0d[m Fix MessageDecorationsAPI
+[33mb2a1410a[m Remove useless Experiments patch
+[33mc25c95ee[m Fix IgnoreActivities making reporter angry
+[33md94418f4[m fix: windows host update patching (#1820)
+[33mda1a8cdd[m web: Fix themes tab
+[33m5d7ede34[m bump to v1.5.7
+[33mcd613549[m ContributorModal: Fix vertical overflow on multi word names
+[33ma452945a[m feat(plugin): NoTypingAnimation (#1680)
+[33mb5776608[m feat(VcNarrator): add `{{NICKNAME}}` as placeholder (#1792)
+[33m4f57c7ed[m betterNotes, userVoiceShow: fix padding issue (#1804)
+[33me3e5da10[m fix: Content Security Policy patching (#1814)
+[33m998ce72f[m ForceOwnerCrown: Remove log spam
+[33m188d12d1[m roleColorEverywhere: role group color in thread/forum (#1778)
+[33ma522eab4[m feat(plugin): NoMosaic (#1791)
+[33mc2721f15[m imageZoom: fix again (#1793)
+[33m61cd7b4d[m arrpc: refactor for use in vesktop
+[33m926af0d1[m feat(VcNarrator): add `{{DISPLAY_NAME}}` as placeholder (#1642)
+[33mdcaf4aec[m fix moreUserTags (#1780)
+[33m5a97adb4[m Fix broken IgnoreActivities patch
+[33m925d7093[m bump to v1.5.6
+[33m1a36dbbc[m ci: cleanup publish workflow
+[33mb59db2f8[m Drop Firefox extension support
+[33md81302f6[m Revert mozilla store compliance changes
+[33m390987e4[m Remove ReviewDB
+[33m377cf600[m fix global settings listeners
+[33m34ac7187[m fix(forceOwnerCrown): update broken patch (#1777)
+[33me4659ed7[m Rewrite IgnoreActivities (#1693)
+[33mc33d59b4[m serverProfile: fix crash with lurked guilds
+[33mac1b67cc[m Experiments(isStaff): Fix search history not showing
+[33mc0f2c974[m ReviewDB: proper multi account support
+[33m664dd0a9[m ReviewDB: allow deleting reviews on own profile
+[33mf66e35b6[m fix(SendTimestamps): Do not add to ReviewDB input
+[33mdf214e1e[m chore: remove legacy code
+[33m47a39a06[m Fix Vesktop SettingsCog context menu
+[33m9e63da6d[m bump to v1.5.5
+[33m79295683[m PictureInPicture: pip button hover styles (#1775)
+[33m5eb9dd04[m Fix member list decorations api
+[33m03b5dc9c[m BetterRoleDot: Fix ci test false positives
+[33m726a1b5d[m Fix command API (#1776)
+[33m581fe252[m fix imageZoom (#1772)
+[33m30b2e88e[m Bump to v1.5.4
+[33m1f38a8ee[m Fix WhoReacted (#1769)
+[33m6db9721c[m ReviewDB: fix usericons appearing over modals
+[33m9891791f[m feat(plugin): onePingPerDM (#1757)
+[33m8dd5eeea[m feat(plugin): PermissionFreeWill (#1763)
+[33mabf8667a[m fix(plugin): Party mode 🎉
+[33me33ac900[m Merge remote-tracking branch 'origin/main' into dev
+[33m8a026060[m Update blank.yml
+[33mc8b77bb1[m Update bug_report.yml
+[33m88b06191[m fix modal image + reviewdb bot tag (#1761)
+[33m62277770[m bump to v1.5.3
+[33m4facc3ca[m webContextMenus: support pasting images
+[33m837d1fc0[m web: fix themes tab (#1756)
+[33m608a67c9[m fix quick/searchReply & MessageClickactions not working in dms
+[33mf32d25b6[m viewRaw, viewIcons, permissionsViewer: fix some edge cases (#1745)
+[33m4c7a2ba3[m Merge branch 'main' into dev
+[33mda7f0cff[m PluginModal: Fix cancel button being white on white in light theme
+[33mae6584da[m add os-accent-color variable (following BetterDiscord)
+[33mc6b1b946[m improve webpack find error messages
+[33m376aaf39[m fix SearchReply filter
+[33m5454a412[m update issue templates
+[33m044f64e4[m Improve permission checks on several plugins (#1746)
+[33m0b7fca86[m plugin READMEs: migrate from imgur to github assets
+[33m30ac2560[m migrate all plugins to folders
+[33md0e2a324[m VcNarrator: Ignore multiple underscores (#1748)
+[33mec026ca3[m Update bug_report.yml
+[33m4baaa9bd[m Delete .github/ISSUE_TEMPLATE/feature_request.yml
+[33md9933c57[m settingsSync: correctly use platform agnostic relaunch
+[33m2735037a[m [skip ci] bump to v1.5.2
+[33m83bfe28f[m FriendInvites: Add picking uses (1 or 5) (#1727)
+[33m08c5d236[m add max attempts to lazys
+[33mac0f8341[m Fix Plugin Settings on canary
+[33mfa16e1b5[m fix updater
+[33mcfca393f[m ci(generatePluginList): add filePath
+[33meacc673b[m Fix BetterRoleDot making reporter angry
+[33mdba6c4ce[m Fix broken FakeNitro patch (again)
+[33m6b10947d[m Bump to v1.5.1
+[33m97b6699a[m Fuck you Mozilla
+[33m7e91edc7[m browser: unhardcode rnnoise
+[33ma82544e9[m Delete FixInbox: Discord fixed this issue themselves now
+[33md8c8b74e[m BetterRoleDot: Setting for copying role color in profile popout (#1698)
+[33mfadd1598[m Settings: use nearest-neighbour for shiggy (#1739)
+[33me5c0898d[m [ReviewDB] add emojis, discord markdown & notifications (#1718)
+[33m9550b74b[m Fix broken FakeNitro patch
+[33m6cfb67a5[m fix ci
+[33m12fe3673[m bump to v1.5.0
+[33mfc0417eb[m moreUserTags: fix user tag in member list (#1730)
+[33m1f87d14a[m textReplace: pad space only in string rules (#1738)
+[33m7d8f3508[m ClearURLs: Add si parameter on youtube.com (#1733)
+[33m41f5d71e[m Bundle dependencies with extensions for webstore rule compliance (#1740)
+[33mefb88a4d[m favGifSearch: fix search bar (#1732)
+[33ma73d09a2[m PreviewMessage: Add attachments (& misc changes) (#1715)
+[33mcf7c4d63[m pictureInPicture: don't show PiP button on normal file (#1725)
+[33ma95311ef[m lastfm: Add setting for artist name and song title only (#1726)
+[33mdd23f980[m InvisibleChat: fixup decryption modal (#1720)
+[33mf23ddf4c[m oopsies
+[33m4222c7fd[m Fix broken FakeNitro patch on canary
+[33m09f65b40[m Fix broken MessageLogger patches
+[33m73647767[m Dearrow: Fix button part 2
+[33m3a5b70d4[m Dearrow: Fix button
+[33me08d49ed[m New Plugin: Dearrow (#1723)
+[33m17abbd3e[m LastFM: Add setting for using name + artist as activity name (#1713)
+[33m25a1d934[m bump to v1.4.7
+[33m620319a4[m blurnsfw: fix crash (#31)
+[33m4c9996d6[m feat(plugin): PictureInPicture (#1697)
+[33m885c75fd[m add custom plugin author popouts (#1712)
+[33mf2a22c5e[m feat: crash info in /vencord-debug (#1714)
+[33m5e3a485e[m ci: generate plugin readme map
+[33m452bf72e[m rnnoise: fix error on webcam (#29)
+[33mafa47add[m usrbg: export the data to allow other plugins to access (#30)
+[33m8ecee3d0[m fix ViewRaw & VoiceMessages context menu style
+[33md2aac5ed[m ClearURLs: Add share_id parameter on reddit.com (#1706)
+[33mfc455100[m LoadingQuotes: add a new quote (#1710)
+[33m77bfaf38[m HideAttachments: fix broken css (#1707)
+[33ma4cadc03[m viewRaw: dont add context menu to guild folders (#1708)
+[33m315fcf19[m messageLogger: make ignoreChannels also ignore threads (#1709)
+[33mf1b3b3c0[m Uncanonicalize reported patches
+[33m4c805d08[m [skip ci] PatchHelper: Fix copy button style
+[33m9b987d1e[m Bump to v1.4.6
+[33m774318d5[m ViewRaw: Update description
+[33m7d954f9a[m ViewRaw: Fix ugly copy icon & context menu position
+[33m860d6edc[m HideAttachments: allow hiding stickers (#13)
+[33m223b0366[m pinDMs: fix alt+shift+up (#25)
+[33m69cb7593[m View Raw on more objects (#27)
+[33m8614e176[m Fix some plugins wrongly displaying the settings cog
+[33maecd9d8f[m feat(memberCount): format count according to user locale (#1679)
+[33mfaeb4fb5[m previewMessage: Hide the button once a message is sent (#1692)
+[33m0d18b44b[m feat(plugin): ShowTimeouts (#1687)
+[33md671bd65[m fix typos (#1703)
+[33m8e952c63[m MessageLogger: fix ignore by id doesn't ignore edited (#1705)
+[33m2c758ccd[m new plugin: ServerProfile (#1704)
+[33mc1657252[m Fix OpenInApp patch
+[33m29fbe370[m Fix CrashHandler patch
+[33m0b7c0e95[m new plugin: themeAttributes (#1686)
+[33md88524e8[m ShowMeYourName: Fix username being wrong on slash commands (#1690)
+[33md6efd998[m messageLinkEmbeds: fix AutoModEmbed on compact mode (#1691)
+[33mfe6be987[m gameActivityToggle: Fix disabled SVG look (#1696)
+[33md688075c[m Update Screenshot
+[33mc752be45[m fix(security - ipc): do not expose sender
+[33m07c1f5ee[m Fix theme upload on crapOs
+[33m4df01b1e[m ci: fix generatePluginList
+[33mebe10d3f[m customRPC fixes (#1666)
+[33meca4af82[m feat: add copyUserURLs plugin (#1683)
+[33m60458cdf[m Win32Updater: use before-quit event instead of patching updater (#1668)
+[33m714d8724[m build: allow overriding git details & disabling updating (#1677)
+[33mf628aa7a[m ClearURLs: Add si parameter on youtu.be (#1681)
+[33m0f028255[m 🗿 but HD (#1678)
+[33m0335e1ca[m new plugin FixSpotifyEmbeds: less loud embeds
+[33m817f0f74[m [skip ci] fix getPluginTarget
+[33m98a03c88[m bump to 1.4.5
+[33m72ce7a5a[m themes: ignore non theme files
+[33me699ea63[m feat(plugin): PreviewMessage (#1607)
+[33m97e1e9eb[m messageLogger: apply deleted style to ephemeral messages (#1608)
+[33m4c403654[m new plugin: NormalizeMessageLinks (#1641)
+[33md582e61e[m Fix patching Win32 updater with OpenAsar (#1667)
+[33mccd2ce8b[m Bump to 1.4.4
+[33mede507e8[m chore: update for 'Vencord Desktop' -> 'Vesktop' rebrand
+[33mffdf6356[m feat(plugins): Web/Vesktop AI Noise Suppression powered by RNNoise (#1477)
+[33m55b755b2[m InvisibleChat: improve encryption validator (#1646)
+[33mca439e9e[m Fix ReviewDB buttons
+[33me02fcce3[m Fix ServerListAPI
+[33m3e732646[m Fix plugins broken by latest canary update (#1637)
+[33md5b3b510[m bump to v1.4.3
+[33m725fb27e[m futureproof settings patches
+[33m243381fc[m Settings: Give vencord sections classes so themes can match them
+[33m54cbdfda[m MemberCount: Remove negative margin, fixes issues with some themes
+[33mfe80b8cc[m AnonymiseFileNames: Properly keep .tar.* extensions
+[33m742f5cf5[m feat(plugin): SecretRingToneEnabler (#1570)
+[33m3b3da90c[m feat(VencordToolbox): add quickcss toggle (#1604)
+[33mc79e065d[m ShowMeYourName: Option to use display names instead of usernames (#1634)
+[33m3b8b43c7[m ci: Fix reporter
+[33m6e799665[m messageLogger: fix ingore guild (#1632)
+[33mabdf4ebb[m feat(plugin): NoSentryConsole (#1623)
+[33mfa124d88[m build: split preload & renderer.css into D. desktop / vesktop (#1629)
+[33m135da2a5[m Translate/SendTimestamps: Fix accessibility (#1628)
+[33mc96a1a99[m [ReviewDB] hide blocked users (#1626)
+[33m8b6c8bc0[m chore: transition to shorter license headers (#6)
+[33m1a62249d[m bump to v1.4.2
+[33m21318850[m fix: open links externally in Quick CSS editor (#1487)
+[33m885ad134[m fix(cloud): cross-client enabling without proper validation (#1531)
+[33m3e7d4e26[m make QuickCSS have priority over themes
+[33md3691f74[m chore: Fix greetStickerPicker file name (#1610)
+[33m268f3a18[m add bottom margin to settings section (#1616)
+[33md6c43986[m Add proper user-friendly theme manager (#635)
+[33mbb7deeb0[m UserVoiceShow: Fix error
+[33m0407be98[m textReplace: fix edge case (#1521)
+[33m645749b5[m VoiceMessages: Improve permission check (#1544)
+[33m2e002107[m customRPC: add validation & some fixes (#1481)
+[33mcc07518a[m VoiceMessages: Support replies (#1565)
+[33mea64b33e[m star history :3 (#1528)
+[33m1a92d3ff[m bump to v1.4.1
+[33m45bb1af0[m MuteNewGuild: Support lurked guilds (#1546)
+[33m39ad88f4[m Experiments: Fix canary
+[33m8cf4d2a2[m Update 1_INSTALLING.md
+[33mfe5e041d[m VoiceMessages: Read file from dynamic path (fixes mac & linux support)
+[33md18681c1[m Delete blank.yml
+[33mc024db1b[m Update config.yml
+[33md8a0db8b[m Update blank.yml
+[33mf62efa5a[m Update blank.yml
+[33m1d77ab0a[m MemberCount: fix family center crash (#1486)
+[33m9268cf3f[m Bump to 1.4.0
+[33m208371c4[m feat(plugin): Favorite Gif Search (#1386)
+[33mc69c6f8c[m feat(MessageLinkEmbeds): add whitelist/blacklist modes (#813)
+[33mf2c6fcaa[m fix(PronounDB): don't use guild pronouns in global profile modal (#1462)
+[33mabf62f28[m Themes tab: Add QuickCss button (#1475)
+[33m8620a1d8[m New plugin: VoiceMessages (#1380)
+[33m198b35ff[m Merge branch 'main' into dev
+[33mb4d0d957[m fix vencord toolbox being unusable with drag region (#1480)
+[33mf785aa14[m fix(OpenInApp): Broken patch (#1434)
+[33md56e6560[m [chore] Update DisableDMCallIdle description (#1422)
+[33ma7e74ee4[m classNameFactory: Allow (& ignore) all sorts of falsy values (#1427)
+[33m1340f023[m feat(MessageLogger): add option to ignore channels and guilds (#1420)
+[33m2bf0c324[m chore: Update dev ids
+[33mf621cdb5[m Bump monaco editor
+[33m97170017[m delete uwuifier plugin (#1414)
+[33m065ab756[m Add "Show New" option in plugin settings (#1416)
+[33m8aea72c1[m FakeNitro: Fix crash
+[33mbea7a171[m Bump to v1.3.4
+[33me52ae624[m feat(cloud): support multiple user accounts (#1382)
+[33m7cd1d4c6[m translate: Add context menu item; fix MLE compatibility
+[33m2a318e39[m QuickCss: Fix wrongly applying quickcss when editing while disabled
+[33m7c7723bf[m Plugin Settings: Use Switches for booleans
+[33m2db0e71e[m fix(RelationshipNotifier): Ignore user-actioned friend requests (#1390)
+[33mcde8074f[m feat(ClearURLs): add Threads share link tracking param (#1384)
+[33m8b1630bc[m Fix ShowAllMessageButtons (#1392)
+[33mbf34b2ae[m Bump to v1.3.3
+[33mcb5f23d9[m ProxyLazy: Limit attempts
+[33mcd2cbfa0[m ShowHiddenChannels: Fix crashing on canary
+[33m232e340f[m fix: send notification when settings are manually synced (#1378)
+[33m8027daa2[m Fix types
+[33m0f7b9f58[m perf(cloud sync): minify synced settings (#1377)
+[33m93482ac2[m SpotifyControls: improve open in app capabilities & styles
+[33m994c3b3c[m OpenInApp: Fix bot buttons
+[33mc696c186[m WebKeybinds: Fix scope
+[33m30d5e210[m Bump to 1.3.2
+[33m1eabd1b7[m WebKeybinds: Fix broken zoom on vesktop
+[33m1cbf2b43[m Fix Badges
+[33m4c197d5d[m New Plugin: WebKeyBinds
+[33mf89027f4[m Bump to 1.3.1
+[33m07a0ebb1[m PronounDB: Fix crash when having pronouns in profile disabled
+[33mf09b44b0[m VcNarrator: Ignore stage channels
+[33mb607eebc[m ImageZoom: Add square lens option
+[33m0936ca29[m ValidUser: Fix mentions with ! (<@!...>)
+[33m13bde79e[m PronounDB: Fix profile patch, add pronoun source to tooltip
+[33mb592defa[m OpenInApp: Add Epic Games; properly respect settings
+[33m73354973[m OpenInApp: Support steam; integrate with SpotifyControls & ShowConnections
+[33me12c0e54[m PronounDB: Fix crash
+[33m088a8bd1[m OpenInApp: Support profile activity on web & profile connection
+[33m51adb26d[m New plugin: OpenInApp - Open spotify urls in spotify app
+[33mcb980a1c[m Fix broken SHC patches (#1360)
+[33m69b10c1f[m Bump to 1.3.0
+[33m8e9ba7c7[m PronounDB: fix caching not respecting user preference (#1344)
+[33m12e3c923[m ViewIcons: Fix animated server pfps & profile edit button (#1350)
+[33m1d8dcef3[m InvisibleChat: fix indicator & crashes (#1356)
+[33m4fe28452[m ImageZoom: add nearest neighbour (#1341)
+[33m5e71ed28[m PronounDB: Strip newlines from Discord Pronouns (Discord is stupid)
+[33m5edbd239[m Fix build
+[33m8472c382[m feat(🗿): ignore blocked users (#1327)
+[33m2103e521[m WebContextMenus: Support all text areas
+[33mafbfb641[m Fix IgnoreActivities broken patch (#1337)
+[33md7ac418e[m Fix some plugins displaying legacy discriminators (username#0000)
+[33m214c1017[m Bump to v1.2.9
+[33m5a0e5018[m Fix ValidUser, BetterFolders & MutualGroupDms
+[33m92113da7[m Fix Vencord Web
+[33m96f30a53[m Update README.md
+[33mceb1f151[m utils: export missing members
+[33m626eb361[m [skip ci] WelcomeStickerPicker: Clean up settings types
+[33m3020fcc9[m [skip ci] Improve typings for settings.withPrivateSettings
+[33mbc0de392[m Improve uwuify (#1295)
+[33m9820b79d[m SHC: show active now voice members; PermViewer: improve styling (#1314)
+[33mab811470[m Update README.md
+[33me4162e7b[m PronounDB: Source pronouns from both PronounDB & Discord (#1301)
+[33m7e8397a4[m Bump to 1.2.8
+[33m555cf640[m BiggerStreamPreview: Hide element if no stream is found
+[33m2039e10f[m Codeberg Mirror: Hopefully fix race condition
+[33me8d90d2b[m feat(plugin): BiggerStreamPreview (#1222)
+[33m55af40ee[m MessageLogger: Add user ignore list (#1275)
+[33ma1fabcdf[m UnsuppressEmbeds: Support dms
+[33meaeb6030[m [skip ci] Add version to /vencord-debug
+[33m662c0227[m New Plugin: MutualGroupDMs (#1239)
+[33m543fdf49[m New Plugin: UnsuppressEmbeds (#1262)
+[33m12253837[m Fix broken SHC patch (#1290)
+[33m07a9adbc[m 🧹🧹
+[33m42d82118[m Fix disabling plugins whose stop() errors
+[33mab3e9932[m ViewRaw: Remove less properties from author
+[33m386dfe36[m ViewRaw: Add setting for swapping left/right click (#1263)
+[33ma4191c9f[m Settings: add custom sections support (#1270)
+[33mf1349a27[m Remove Cloud Sync notification
+[33m3680c26f[m Bump to 1.2.7
+[33m683c92f9[m fix: do not highlight new member leaf in red in message logger (#1071)
+[33m3410ed02[m QuickReply: respect users in userList of NoReplyMention (#1191)
+[33mdbad1098[m [skip ci] Don't run ci on forks; Fix interaction nicks in SMYN (#4)
+[33m55543d86[m Fix(RevealAllSpoilers): New spoiler class name (#1229)
+[33m263fbc37[m Fix ReviewDB auth (#1227)
+[33mc9c0ab5a[m Fix cloud auth [object%20Object] (#1226)
+[33m7b2bf08b[m [skip ci] ci: fix inconsistent formatting
+[33m43011825[m Add NoProfileThemes plugin (#1193)
+[33m4abcea61[m feat(MessageClickAction): delete message logger history (#1204)
+[33mcba810ca[m Improve settings selectable text style
+[33m5938c7d6[m Plugin: NoPendingCount (#1216)
+[33m99d8b8b7[m VcNarrator: Fix always saying 'someone'
+[33m503d49d2[m Add codeberg to gitlens and add build tasks (#3)
+[33m137b79d9[m README: Add codeberg mirror
+[33m3c02d6e1[m Bump to 1.2.6
+[33ma2a33ca6[m Fix occasional freezing on firefox (cache related)
+[33md8cd557f[m Clean up build scripts
+[33m7568bbae[m VcNarrator: Improve username cleaning to support non ascii chars
+[33m9023d45d[m Improve /vencord-debug
+[33mbee70390[m Add codeberg mirror sync workflow
+[33m3e3d05fc[m ReviewDB: Add Review Modal & Pagination (#1174)
+[33m6300198a[m MessageLinkEmbeds: Fix niche unclaimed account bug
+[33m458c7ed4[m Make Fake Nitro transformations support the new markdown (#911)
+[33md888a0a2[m [skip ci] Fix plugin json generation
+[33ma94787a9[m Bump to 1.2.5
+[33m368d2bcd[m DiscordUtils: Add sendMessage
+[33mbc46bfa4[m New plugin : Party mode 🎉 (#1161)
+[33mdab48288[m TypingTweaks: Fix type error
+[33m9aef97c7[m fix(TypingTweaks): use global displayName over username (#1165)
+[33m9d62dec6[m Uwufy: Add option to uwufy all messages (#1036)
+[33m6bf6583e[m FakeNitro: Fix unavailable emotes; Discord Stickers are now free (#1184)
+[33m5219fb70[m PermViewer: Add ability to change sort order; Properly center (#1182)
+[33m184c03b2[m PluginModal: Anonymise authors (#1176)
+[33mec091a79[m Fix SHC broken patches; Sort PermViewer channel overwrites roles (#1166)
+[33m89a6c575[m lastfm: Fix discord application
+[33m60325c6a[m bump to 1.2.4
+[33mc2a1c4cb[m Urban Dictionary: better embed (#1127)
+[33m1d6b78f6[m feat(plugin): FavoriteEmojiFirst (#1110)
+[33m341151a7[m feat(InvisibleChat): use discords embed api (#1162)
+[33mf6fd7cf3[m PlatformIndicators: make mobile icon match Discord's (#1160)
+[33md53476a3[m VcNarrator: Add 'Narrate Self' option (#1120)
+[33mfc943b77[m emoteCloner: allow other characters in sticker names (#1140)
+[33m3f2bcd2c[m SHC: Permissions viewer integration (#475)
+[33m235000cf[m Fix handleProtoChange erroring when userSettingsProto is undefined (#1150)
+[33m263884cb[m PermViewer: Fix context menu for roleless users & muted channels (#1138)
+[33mbb83c0b6[m [skip ci] PronounDB: Do not add pronouns to automod messages
+[33m2815509c[m UserScript: Fix fetch().res.ok
+[33m53ff2532[m bump to 1.2.3
+[33m64b38348[m feat(plugins): Permissions Viewer (#477)
+[33m9c1b3a9a[m Update README.md (#1123)
+[33mcaf77a3d[m NoReplyMention: add option to only exclude specific users from pings (#1107)
+[33m7a27de89[m [ReviewDB] Improve UI & Use new RewviewDB api endpoints (#1104)
+[33m1bc06784[m MoreUserTags: Fix & Add ability to customize text inside tag (#1077)
+[33mcd53cf38[m ReverseImageSearch: Add engine icons
+[33mf13f9e80[m ViewIcons: Add context menu icons
+[33mc062f9bd[m SpotifyControls: Add context menu icons
+[33mf2ef96a4[m PlatformIndicators: Fix profile spacing
+[33m16365d3e[m bump to 1.2.2
+[33m1ec28a34[m EmoteCloner: Add Sticker cloning (#1118)
+[33m2fdc00b1[m BadgesAPI: Fix canary crash (new pomelo badge, the horror)
+[33m3da11268[m oops, add missing else
+[33m1d931620[m MessageClickActions: Add double click to reply
+[33m7dcd32e8[m PlatformIndicators: Fix weird spacing in badges
+[33made31f99[m Implement plugin tags
+[33m3c7496ac[m TextReplace: Visible Linebreak in settings (#1063)
+[33m63387a48[m silentMessageToggle: Add setting to disable auto disable (#1062)
+[33m3bb68467[m Update README.md
+[33m2b337eac[m [skip ci] ShowHiddenChannel: Fix broken patch
+[33m5c5b009c[m Settings: Fix resetting scroll/search when getting a ping (#1106)
+[33m0c54b1fa[m [skip ci] Fix InvisibleChat button being added to wrong chat box (#1100)
+[33m393f7674[m USRBG: Hide Nitro badge if banner's source is USRBG (#1096)
+[33m1fe7f3c2[m ViewIcons: More consistent context menu position
+[33m622e8dc3[m [skip ci] Translate: Shift/Right click shortcut
+[33ma8b6aea2[m bump to 1.2.1
+[33me50c2faf[m Settings > Plugins: Hide API plugins
+[33m6e3cafce[m Translate: Only add button in chat box
+[33m4d0a0644[m WebContextMenus: Fix slate menu
+[33md1ad6c47[m Fix ServerListAPI
+[33md5c35055[m experiments: Add a warning card to experiments page (#1097)
+[33mcb385d1b[m New Plugin: Translate (#1089)
+[33m195f1a03[m ShowConnections: Add verified & copy/link icons in tooltip (#1092)
+[33mdfda9e7f[m New plugin: ValidUser (#1081)
+[33m0d5e2d06[m [skip ci] Refactor utils
+[33m2834bed5[m MemberCount: Do not count offline group lol
+[33m0b2c3c83[m MemberCount: Fix not properly updating on channel switch
+[33m3a54a24c[m VencordToolbox: Change img icon to svg (#1059)
+[33m244d10dc[m [skip ci] Fix handleComponentFailed spam
+[33mc25bc0ff[m USRBG: Add VoiceBackground (#1038)
+[33m22334663[m TextReplace: Test rules section (#1039)
+[33m8813f81b[m ShowConnections: Remove "(click to copy/open)" from tooltip (#1041)
+[33m84371ed4[m TextReplace: Fix Linebreak (#1057)
+[33m8f61119b[m ShowAllMessageButtons plugin (#1029)
+[33m0a89d097[m style(Settings): Make the text about raw theme links bold (#1052)
+[33m47493216[m Fix FakeNitro Stickers (#1048)
+[33mbd95a25f[m TextReplace: Do not apply rules in #textreplace-rules channel
+[33m6a57ecc2[m Delete FxTwitter & NoCanaryMessageLinks: Use TextReplace
+[33m0d665b7e[m Badge duplication glitch was too good to be true
+[33md94b28fb[m Fix VencordToolbox
+[33mbc1d8694[m new plugin: VencordToolbox (#998)
+[33m7bc1362c[m MessageEvents: Support sendMessage with attachments (#1023)
+[33m4dce836f[m RelationshipNotifier: Fix false positives when using AccountSwitcher
+[33m9f534c06[m SupportHelper: Add OpenAsar info
+[33mc62d05e1[m Refactor ipc to be strongly typed and hide impl details (#1018)
+[33m6a1cb133[m Fix blank errors on plugin reports (#1021)
+[33mc6196dff[m [skip ci] PlatformIndicator: Fix 1px misalignment
+[33macdb3903[m [skip ci] Bump deps
+[33m08d88b32[m Fix Plugin Reporting false dependency errors and other stuff (#1017)
+[33ma73858d1[m UserVoiceShow: Fix lack of bottom padding for popout on current user and broken modal patch (#873)
+[33mb0caa6f4[m feat(plugin): TextReplace (#994)
+[33m168d4b4c[m PlatformIndicators: Fix layout reflows - The trilogy
+[33m06cee75a[m PlatformIndicators: Fix layout reflows 2: Electric Boogaloo
+[33md589d22a[m bump to 1.2.0
+[33m4c13521a[m PlatformIndicators: Fix layout reflows
+[33m04338196[m ReviewDB: make warning review disableable; add timestamps (#948)
+[33m5b485806[m Plugin Settings: Better margin for plugin settings modal (#1008)
+[33m29c99464[m ShowConnections plugin (#923)
+[33ma35b4171[m BetterRoleDot: Fix copying colour
+[33m070aa343[m Remove migratePluginSettings calls
+[33mb95c5c66[m Fix USRBG (#1000)
+[33mbf795c49[m [skip ci] Update Monaco; Fix code scanning errors
+[33ma2e03084[m BadgeAPI: Add support for multiple donor badges
+[33mec72b4c9[m PronounDB: Oop, conditional hooks are bad :>
+[33md70d7c7b[m [skip ci] reporter: reduce sleep time
+[33me7d0fc25[m [skip ci] WebContextMenus: fix false ci test positives
+[33m7b13b9a5[m PronounDB: Fix not working in profiles
+[33m1b2cb52d[m ViewIcons: Fix viewing banners
+[33m0fe0fecb[m MessageLogger: Nicer context menu
+[33mc1fca76f[m SilentMessageToggle: Add missing dependency on MessageEventsApi
+[33m0cc3901e[m MuteNewGuilds: add toggles for guild, everyone, and roles. (#979)
+[33mf8ace5b5[m [skip ci] definePluginSettings: Add missing BigInt type
+[33mc0954a18[m Specify that theme in screenshot is only an example
+[33m6548163d[m Update README.md
+[33m24f161d6[m Update README.md
+[33m7d00b6a8[m README: Add screenshot & more info
+[33m5f5d4b89[m [skip ci] UserScript: Fix cors check pt 2
+[33m5be86f9b[m WhoReacted: Fix clicking user pfps also adding reaction (#977)
+[33mdfc3f058[m Fix RoleColorEverywhere crash
+[33m63fc354d[m feat: auto-managed flux subscriptions via plugin.flux (#959)
+[33mc6f0c849[m PinDMs: Fix alt up/down being weird (#957)
+[33ma8d01781[m TypingTweaks: Fix filter
+[33m8dd70f5d[m Fix inserting text when markdown preview is off
+[33m8be6c6e3[m fix(ReviewDB): fix margin in self-profile preview (#935)
+[33m7e96b5dc[m RelationShipNotifier: Support multiple users (#944)
+[33m99a7d78e[m [skip ci] USRBG: Update README link to a more accurate one (#943)
+[33me70d00d0[m BadgesAPI: Don't depend on getBadges module not being undefined (#942)
+[33mc0ac6a4b[m SilentMessageToggle: Option to persist state (#941)
+[33m29749e93[m CI Reporter fixes
+[33m993c6be2[m Fix badges
+[33me2e1cf2b[m feat(plugin): USRBG (#844)
+[33m59e3c2c6[m ci: fix cding into wrong folder
+[33m43d7ca4c[m Make chat bar buttons have a consistent size (#927)
+[33m5305447f[m firefox: Fix csp (QuickCss, themes, some plugins) (#554)
+[33m76e74b3e[m SendTimestamps: Fix chatbox having a scrollbar
+[33me767da4b[m Fix errors on setups with no SpeechSynthesis support (part 2)
+[33me4f3f57a[m bump to v1.1.7
+[33m72f6dd84[m SilentTyping: Make Tooltip text casing consistent w other plugins (#918)
+[33m9c929a4d[m messageTags: Fix duplicate entries & replies (#922)
+[33mdac9cad8[m Improve FakeNitro emoji popup message (#924)
+[33m6fd5c787[m Remove ContextMenuAPIs from plugin dependencies (now required)
+[33ma56dfe26[m Improve unintuitive plugin descriptions
+[33m7d55a81b[m MessageLogger: Add toggle deleted highlight rightclick button
+[33mce646313[m MessageLogger: Apply styles to gifs, stickers & new markdown
+[33m1caaa784[m PinDMs: Add option to sort by most recent message
+[33md35654b8[m Improve themes tab instructions
+[33mca5d2438[m Fix errors on setups with no Notifications/SpeechSynthesis support
+[33mcb3bd4b8[m ci: Also upload extension zips
+[33mff3589d1[m CloudSync: fix accidently applying stale settings (#915
+[33m7a98f1df[m Make Vencord Extension run in iframes (#914)
+[33m9e6d3459[m fix(smyn): reversed settings (#913)
+[33mea30ca41[m feat: Add AlwaysAnimate plugin (#908)
+[33m1f7ec93a[m SHC: Small improvements (#907)
+[33m336c7bdd[m SHC: Fix emoji rendering & allowed users/roles edge cases (#895)
+[33m88ad4f1b[m SendTimestamps (#891)
+[33mf75f8878[m feat(plugin): ShowMeYourName (#901)
+[33m96f640da[m Make Context Menu API support hooks (#902)
+[33me8809fc5[m add reviewdb bacc (#898)
+[33mca91ef4e[m feat(moreUserTags): add HTML data attributes to user tags (#883)
+[33mdb7fc376[m Fix settings on Vencord Mobile (#905)
+[33m6c719f5e[m PinDMs (#879)
+[33mc6fd8cae[m Fix MuteNewGuild (#896)
+[33m1adbf9e4[m Delete muteNewGuild.ts
+[33maee6bed4[m Revert "Delete DisableDMCallIdle: Discord removed this 'feature'" (#889)
+[33mc8817e80[m Fix badges
+[33mc6f0d076[m Remove noisy notifications from notification log
+[33m3bd3012a[m Delete DisableDMCallIdle: Discord removed this 'feature'
+[33m694a693a[m MemberCount: Fall back to approx member count if necessary
+[33med827c2d[m Shiki: Make CodeBlock button texts not copyable (#864)
+[33m71849cac[m Fix ViewIcons on webhooks and default avatars! (#880)
+[33me34da542[m Option to transform emotes/stickers in compound messages (#876)
+[33mcfe41ef6[m ViewIcons: Add format setting & user context menu + cleanup
+[33m4d836524[m GreetStickerPicker: greet with stickers of your choice (#866)
+[33medc96387[m Fix FriendInvites (#874)
+[33m358eb6ad[m ImageZoom Fixes
+[33mc997cb49[m ImageZoom: Fix not being able to close carousels on sides (#857)
+[33m83dab24f[m PronounDB: Fix pronouns flickering (#862)
+[33m8a305d2d[m clean up spotify controls css
+[33m7eb12f0f[m SpotifyControls: Fix flashing button row when using show on hover (#850)
+[33m0a3dc5c6[m VoiceUserShow: Fix lack of bottom margin (#853)
+[33mb21516d4[m Make QuickCss window title consistent with other windows (#859)
+[33m65f7cf95[m Nicer GameActivity & SilentMsg UX; Fix [object Object] jumpscare (#863)
+[33m40a7aa50[m UserScript: Fix cors check
+[33mc4a3d25d[m feat(NoAutoReplyMention): Inverse shift reply behaviour (#839)
+[33m613fa9a5[m feat: add translucency option for macOS (#849)
+[33m08822dd1[m Improvements for VencordDesktop (#847)
+[33mbfa20f26[m feat(setting): Disable minimum window size #834 (#848)
+[33m840da146[m UX: Make possibly copy-relevant text in settings copyable
+[33macc874c3[m WebContextMenus: Fix jpegs being uncopyable
+[33m0dee968e[m WebContextMenus: Don't include queryparams in filename on save
+[33m09e919f0[m bump to 1.1.6
+[33meaf1af75[m WebContextMenus: Port more menus (#818)
+[33m7c514e4b[m SupportHelper: Add missing dependency - CommandsAPI (#823)
+[33m1432baa2[m ignore userplugins when linting (#822)
+[33mf1f61195[m InvisibleChat: Add missing dependency on MessagePopoverAPI (#817)
+[33m8fefa2b7[m FakeNitro: Fix stickers with space in name #819 (#820)
+[33m2a0c30b6[m feat(moreusertags): add option to not show more tags for bots (#812)
+[33m97f8d4d5[m feat: Cloud settings sync (#505)
+[33m2672dea8[m ci: bump action
+[33m63f5b0a6[m bump pnpm to v8
+[33me40ebacc[m feat(plugin): WebhookTags -> MoreUserTags (#378)
+[33me261c935[m feat(plugin): User Voice Show (#694)
+[33mdf7357b3[m feat(plugin): Image Zoom (#510)
+[33m2e6c5eac[m BetterFolders: Fix Close all not working (#808)
+[33mc9fd4040[m Fix FriendInvites (#802)
+[33m814302e2[m Fix Badges (#801)
+[33m72ba8392[m SpotifyControls: add album art hover transition (#797)
+[33m9d742094[m ShowHiddenChannels: Use Discord's new overlay vars (#795)
+[33m38f3aac9[m Fix VolumeBooster and improve ContextMenuAPI patch (#793)
+[33m12ffb9d6[m Fake Nitro Transform Stickers option and other stuff (#683)
+[33m99391a4f[m fix generatePluginList
+[33m6492908a[m VencordDesktop: Fix Updater
+[33m676bc612[m VencordDesktop: Include web plugins & use proper showItemInFolder
+[33md8a5e430[m Fix Themes Tab
+[33m8ad710ab[m Fix ContextMenuAPI
+[33m368cb7bc[m Fix Toasts
+[33m4aa7a052[m Bump to v1.1.5
+[33mf088f17a[m Remove accidently introduced patch
+[33ma55c758b[m Fix SpotifyControls
+[33mf092f434[m Fix Vencord
+[33m2e6dfaa8[m FakeProfileThemes: add usage guide (#778)
+[33m96dc2e12[m Fix Web & Game Activity Toggle (#777)
+[33md931790e[m BetterFolders: Fix unread indicator & read all buttons being duplicated (#776)
+[33m6b26c12b[m Add additional build flavours for Vencord Desktop (#765)
+[33m5bb08bdb[m SpotifyControls: Fix crashing on canary
+[33m405be7ef[m Fix weird style on username sheet
+[33ma7e2fb48[m fix oopsie
+[33mae80749d[m Game Activity Toggle and SettingsStoreAPI (#587)
+[33m8c47b708[m QuickReply & Up Key: Do not attempt to edit/reply to logged deleted message
+[33m8378638e[m BetterFolders: fix mentions display (#761)
+[33m7c563471[m Fix typo
+[33m29382d27[m Add BetterFolders plugin (#530)
+[33m6226672e[m Web: Update extension icon from trolley to Vencord logo
+[33m5b5ee82f[m Update Contributor Badge to new logo
+[33m62f74f59[m feat(plugin): FakeProfileThemes (#710)
+[33m265c7a18[m Delete corruptMp4s.ts
+[33m462f1910[m Bump to v1.1.4
+[33m6960a439[m Add Notification log (#745)
+[33m4dff1c5b[m RelationShipNotifier: Delay by 5s to fix false positives
+[33m2c8ebdce[m feat(plugin): RelationshipNotifier (#450)
+[33mdae7cb67[m Fix IgnoreActivities broken patch (#743)
+[33m081b01b6[m feat(plugin): Wikisearch (#585)
+[33m5340ea7b[m Add back window transparency with temporary unsafe settings key
+[33m84a649a6[m docs: fix ToC
+[33mefd99276[m Fix broken plugins
+[33mc86a34a1[m Update 1_INSTALLING.md
+[33mff16513f[m Fix onHeadersReceived clashes when using OpenAsar (fix github raw styles)
+[33m906c265a[m FakeNitro: Fix fake emote rendering incorrectly in thread previews
+[33m708c1617[m Remove transparency feature
+[33m035d1e24[m feat(SpotifyControls): Fix background color for built-in themes (#731)
+[33m48e9b1be[m new Plugin: GifPaste - Insert Gif links instead of sending
+[33m6acdaf20[m NoTrack: Update description & authors
+[33m9d41b360[m Fix NoTrack
+[33m12cbd73e[m SpotifyControls: Add right click menus to title/album/artists
+[33m420b0680[m Fix makeProxy returning stale proxies after assigning objects (#722)
+[33mee943c42[m Bump to v1.1.3
+[33m337b3709[m types: Make ErrorBoundary.wrap explicitly return Function
+[33meb318c67[m feat(ViewRaw): Improve View Raw action icon (#720)
+[33m081df6be[m Fix SilentMessage/SilentTyping toggles showing in wrong sections
+[33mab911b48[m TypingTweaks: Make names open profile on click
+[33m8cb34910[m feat(uwuify): improve uwuification algorithm (#706)
+[33mee794d14[m fix: no more theme box obliteration (#707)
+[33ma00542b6[m MessageLinkEmbeds: Fix weird commas in title
+[33m041a13c9[m DevCompanion: Always use original
+[33m24aa90bd[m fix API plugins being force enabled unconditionally (#704)
+[33mc574f534[m Add Code of Conduct (#680)
+[33m92b84a9e[m Fix broken patches (#701)
+[33mbbf3c74c[m Update LastFM plugin (#483)
+[33m93cb51a9[m feat(MessageEvents): Promisable send/edit listeners (#514)
+[33m0b4ae729[m feat(plugin): SearchReply (#551)
+[33mb9039257[m PronounDB: Add support for compact mode & clean up (#604)
+[33me1432608[m MessageLogger: Add context menu entry to remove history (#693)
+[33m644c5c4f[m Make Vencord title look consistent with Discord (#685)
+[33m8d8cedd7[m Also add Emote Cloner to Emote picker rightclick menu (#664)
+[33m082ac62e[m feat(FakeNitro): Transform fake emojis into real ones (#669)
+[33m7923a790[m Fix MessagePopoverAPI and any error Fake Nitro client theme bypass might have (#665)
+[33m1368c258[m ci: Auto generate plugin json
+[33md0b3678a[m fix messagelogger deleted styles (#642)
+[33mcae8b1a9[m Bump to v1.1.2
+[33ma1c1fec8[m Improve Fake Nitro client themes bypass (#654)
+[33m55a66dbb[m fix(RoleColorEverywhere): MessageLinkEmbeds DM error (#648)
+[33ma2f0c912[m Fix Fake Nitro making Discord unusable and ColorSighted not working sometimes (#640)
+[33me29bbf73[m Fix Nitro Themes with FakeNitro (#639)
+[33m0ba3e9f4[m I'm sorry for hurting you Fake Nitro (#637)
+[33m6f200e92[m Fix grammar and SHC patches matching wrong var (#636)
+[33m586b26d2[m Fixes and ShowHiddenChannels improvements (#634)
+[33md482d33d[m Fix the infamous MessageClickActions bug
+[33m37c2a8a5[m fix: settings input validation and error handling (#609)
+[33m26554721[m docs: clarify empty patches array behavior (#610)
+[33m87e46f5a[m chore(friendInvites): improve descriptions formatting (#628)
+[33me36f4e5b[m Fixes and make guild tooltip show users inside hidden voice channels (#613)
+[33m4aff1142[m Replace update notices with notifications (#558)
+[33mea642d9e[m Fix #598 (#612)
+[33m17c34965[m feat(typingIndicator): Option to not show indicator for blocked users (#513)
+[33m0fb79b76[m Improvements, changes and fixes (#611)
+[33m5873bde6[m fix(apiMessagePopover): fix match (#608)
+[33m0b793878[m feat(PlatformIndicators): Colored mobile indicator option (#536)
+[33m6b493bc7[m feat(plugin): F8Break (#581)
+[33mde53bc79[m messageLogger: fix edited timestamp styling & add i18n (#607)
+[33m4c5a56a8[m fix(RoleColorEverywhere): Chat mentions (#605)
+[33med873ef9[m Bump to v1.1.1
+[33md8a553fe[m improve MessageLogger deleted image hover animation (#603)
+[33m47176120[m :shipit:
+[33m5d1283bd[m Add Web/Desktop specific plugin capabilities; misc fixes
+[33m3b945b87[m Delete src/plugins/reviewDB directory
+[33m19c762f9[m DevCompanion: Fix Deps
+[33m990adf75[m Fix casing in filename
+[33m983414d0[m Add DevCompanion plugin (https://github.com/Vencord/Companion)
+[33md5c05d85[m Add DevOnly plugin capability
+[33mbff67885[m feat(plugins): SilentMessageToggle (#586)
+[33m253183a1[m Fix Emote Cloner and improve ReverseImageSearch (#489)
+[33m0fb3901a[m Fix Context Menu API (#583)
+[33m1b199ec5[m feat: Context Menu API (#496)
+[33m40395d56[m Improvements for patches and misc stuff (#582)
+[33m7322c3af[m Fix Crash Loops and prevent metrics (#580)
+[33m36c27f11[m VCDoubleClick: Fix applying to non voice channels (#572)
+[33m95db6c32[m Fix Ignore Activities button on platforms different than Windows (#528)
+[33mbed5e98b[m Misc fixes and improvements (#555)
+[33ma5392e5c[m fix(silentTyping): fix chatbar icon patch (#570)
+[33mabbd298b[m Fix(InvisibleChat) Fix chatbar icon patch (closes #560) (#566)
+[33me219aaa0[m Notifications: Permanent option and close button (#563)
+[33mcab72e1b[m Strongly type useSettings (supersedes #559)
+[33m92372bde[m Update 1_INSTALLING.md (#562)
+[33m6747276a[m Add admin warnings to INSTALLING.md (#561)
+[33m03915b75[m Bump to v1.1.0
+[33m5e2ec368[m patches: Make $self more robust
+[33mab8c93fb[m Rewrite MessageLinkEmbeds part 2
+[33md6a3edef[m Rewrite MessageLinkEmbeds to improve Code Quality
+[33m727297ec[m Fix messageLinkEmbeds
+[33meccc4b0b[m feat(plugins): add FixInbox plugin (#552)
+[33m8465140b[m Bump to v1.0.9
+[33me6ccb751[m Fix for latest Discord Update (#550)
+[33mdfc7a150[m chore: extend description of NoDevtoolsWarning plugin (#545)
+[33m37003eda[m fix(Notifications): Correctly close errored notifications
+[33mfaa90ecc[m feat: Crash Handler (#531)
+[33mc91b0df6[m GMPolyfill: add header prop (#543)
+[33mf56d99e1[m Update README.md
+[33mc6906628[m Improve README
+[33m4918d699[m Windows: Add Option to use native titlebar ~ Closes #537
+[33m5ec51787[m typings for defaultless settings (#512)
+[33mcf56ad98[m oop oop oop
+[33mc09d1558[m Add SupportHelper plugin
+[33meb190b66[m Bump to v1.0.8
+[33md6f90686[m feat: SearchableSelect (#518)
+[33mcb507bab[m fix: vcDoubleClick and revealAllSpoilers patch (#517)
+[33m235d1141[m Improve ConsoleShortcuts plugin
+[33m9aba70dc[m Fix MenuItemDeobfuscator
+[33m0b61d29c[m Fix TypingTweaks
+[33m335a13a3[m fix tooltip component check (#541)
+[33m128ee412[m ErrorBoundary: Do not use any Discord components to be more robust
+[33mccca41a1[m Bump to v1.0.7
+[33maf4c7d8a[m Fix Cards (they look ugly now, wtf Discord)
+[33m77c69165[m ReviewDB: Show edit instead of create review where applicable (#466)
+[33me14ec96e[m feat(FakeNitro): Bypass client themes and fixes (#504)
+[33mff1f3376[m Fix QuickCSS on electron 20+
+[33m3ca87848[m TypingIndicator: Fix a dumb (#503)
+[33m9420735b[m Version 1.0.6
+[33m6807820f[m Badges should use ErrorBoundaries
+[33m3cad0d60[m Silly Discord changed a bunch of css vars
+[33mfbbc198b[m Fix PlatformIndicator
+[33m224ae979[m feat(plugins): Typing Indicator (#502)
+[33m27fc2011[m feat(plugin): RoleColorEverywhere (#482)
+[33m60ccd8cc[m Various plugin fixes (#492)
+[33m5c151915[m feat(plugin): ColorSighted (#501)
+[33m58270ef9[m bump to v1.0.5
+[33m68055977[m NotificationAPI: Correctly request browser permissions
+[33m2b0c25b4[m Feat(InvisibleChat): Add Autodecryption (#490)
+[33mc154965d[m TypingTweaks: Fix crash after changing language
+[33m614234ad[m MessageLinkEmbeds: Prevent infinite cycles (#488)
+[33m2489bc68[m Fix WhoReacted (#487)
+[33md95be1ac[m refactor: update plugins to use `$self` (#478)
+[33m1d995e58[m Notification API (#467)
+[33m6114bc6b[m make proxies enumerable (#476)
+[33mae98401b[m Fix lag when alt tabbing to Discord
+[33m992a77e7[m ShowHiddenChannels: Stage and voice channels support (#469)
+[33m291f3811[m New webpack filter: byDisplayName (#474)
+[33m8a521893[m feat(plugin): richerCider (#471)
+[33m70278f64[m Fix broken patches
+[33m7b1d0369[m ci(reporter): Ignore 404/429 errors
+[33m8b407601[m fix(showHiddenChannels): revert lock icon to correct path (#465)
+[33mde099043[m feat(plugin): RevealAllSpoilers (#381)
+[33m369d179b[m ShowHiddenChannels: New screen for showing hidden channels (#460)
+[33m8f4e8d0a[m TypingTweaks: fix crash on non en-US locales (#463)
+[33m62f7e4d4[m Add stylelint
+[33mfce7d6b6[m Make webpack types importable from @webpack/types
+[33m69715070[m browser ext: change applications to browser_specific_settings
+[33md9fb7f45[m ci: fix extension publishing
+[33me32388e3[m ci: fix version check
+[33m823fa2d0[m Bump to v1.0.4
+[33m3cdffe44[m chore: Fix inconsistent file name casing
+[33m429ab9d3[m feat(plugin): TypingTweaks (#432)
+[33m072ad3d7[m feat(settings): Add the ability to make the window transparent (#457)
+[33m6e22a96d[m feat(ShowHiddenChannels): fix channel switch keybinds jumping to hiddens (#459)
+[33mbc4c7473[m ci: fix typo
+[33m399305fd[m Automatic extension publishing (#453)
+[33m0c030a3a[m VcNarrator: Show all voices, better defaults
+[33m49aacccc[m shc: Make topic not inline
+[33m6ab4b48b[m chore: bump deps
+[33m103cd143[m Fix Themes Tab
+[33m41226f03[m Fix ShowHiddenChannels
+[33m5d3148cf[m New plugin: VcNarrator (#402)
+[33md628924b[m ShowHiddenChannels: More improvements (#454)
+[33mf19504f8[m split up webpack commons into categories & type everything (#455)
+[33ma38ac956[m chore: Remove legacy workarounds
+[33m34276301[m Fix Settings UI (Discord removed default margins
+[33mb2ecb023[m Make Windows Ctrl+Q feature optional; add opt-in auto update (#451)
+[33m25d32ce2[m Settings: Fix plugin switch state not updating (fixes #209)
+[33mcb4c5084[m [SpotifyControls] Add option to show Controls on hover (#352)
+[33m83757b19[m fix: emojis with duplicate names failing to clone (#449)
+[33m75050e74[m ShowHiddenChannels: better ui, alternative display mode (#446)
+[33m8a43e9b2[m dev: Better errors when using Node < v18
+[33m84cfe531[m Ignore dotfiles in plugin dirs (#447)
+[33m68e80c4d[m Fix small QuickCss bug
+[33mb4f98e50[m Fix Settings ContextMenu Shortcuts & Settings on canary
+[33m9602f527[m Future proof Volume Booster to work with volume settings syncing (#439)
+[33m64180362[m ViewIcons: Fix finding ImageModal and props passing to MaskedLink (#442)
+[33m6e44b8c4[m Fix Message Accessories API (#441)
+[33m2641adb2[m canary bad
+[33mef5b3e18[m add issue title templates
+[33m7fe3a2c8[m Add issue templates
+[33mc4d2b4a8[m Fix message logger patch (#431)
+[33m08a2030b[m feat(Plugin): customRPC (#406)
+[33m5fe0600d[m Fix Message Popover API (#425)
+[33mebdcbcaf[m Update README.md
+[33m1d287357[m Reimplement Discord's Switch to fix performance (#413)
+[33me49151ff[m remove power user instructions from readme (#417)
+[33m7478e880[m ShowHiddenChannels: Use Lock as ChannelIcon
+[33mbe7fa0cb[m fix(showHiddenChannels): remove obsolete icons patch (#416)
+[33m9338b92b[m feat(SilentTyping): add toggle command and icon (#398)
+[33mefb0ef8b[m Dev inject: add Mac support (#414)
+[33mfd766bc9[m Dev: Hot reload core css
+[33m0e5b8b07[m make plugin cards prettier (#389)
+[33m7582feb6[m feat(messageActions): make features toggleable (#373)
+[33m6329499b[m git updater: Fix macOS (#391)
+[33m32cdb638[m fix(vcDoubleClick): fix functionality (#410)
+[33mea748dfb[m feat: Typesafe Settings Definitions (#403)
+[33m6c5fcc41[m Use GUI installer for pnpm inject/uninject (#407)
+[33m26f2b51e[m Fix Frameless
+[33m075b0e09[m Update patcher.ts
+[33m10fd5107[m feat: Add option to disable the window frame (#400)
+[33me70abc57[m Update Windows Update patcher (#404)
+[33ma8678db7[m Fix React DevTools
+[33mbedb7b21[m feat(Plugin): Add AlwaysTrust (#401)
+[33mb39cbcd9[m fix(IgnoreActivities): Fix for upcoming change (#399)
+[33m19c9a132[m Fix InvisibleChat button getting hidden by themes
+[33mc5256727[m Fix BetterRoleDot crash
+[33ma772aa62[m Fix PetPet & CorruptMp4s
+[33m23a461c3[m oneko: Disable pointer events to not block below buttons (#395)
+[33mda2d3175[m Unhardcode PluginSettings styles
+[33m95df164e[m PluginSettings: Try to improve performance
+[33mae9fe7fc[m Fix Ctrl+Q shortcut working when Discord minimised
+[33mf0240ec3[m chore(plugins): Fix IgnoreActivities & clean up other plugins (#384)
+[33m15aa2299[m Add Ctrl+Q Exit shortcut on Windows
+[33m06aa72c6[m feat(Plugin): InvisibleChat (#349)
+[33m17134505[m [PlatformIndicators] Fix Chat Badges in DMs (#367)
+[33meecc555d[m Fix Badges & MessageLinkEmbeds (#383)
+[33m5a3fbbfb[m unscuff profiles
+[33mcc51f6e2[m Fix blurNSFW on canary
+[33m8113ed3c[m Fix canary
+[33mb8ed7228[m fix(ViewIcons): module not found (#382)
+[33m9c5a149f[m Move Installer to Vencord org
+[33mcf2bf2b4[m oop
+[33me6f759ee[m Add ImgOps to ReverseImageSearch (#379)
+[33m933216fc[m QoL(PluginSettings): auto focus search bar
+[33mbcbbc793[m Happy new year
+[33m374531d1[m Extract inline styles to css (#370)
+[33m2e5d27b6[m feat: Proper CSS api & css bundle (#269)
+[33m2172cae7[m [PlatformIndicators] Add own Status (#350)
+[33me740f554[m Fix Vencord
+[33maff1b68d[m Add a "NEW" Badge for New Plugins (V2)! (#234)
+[33m074542f0[m feat(plugins): NoScreensharePreview plugin (#358)
+[33mb0c41d55[m Improve treeshaking
+[33maf0d34b1[m pointy is a "contributor" (#359)
+[33m6dd705f9[m Update build.yml
+[33m259f0284[m Update build.yml
+[33mcb9eb1f7[m i hate ci i hate ci
+[33m42b4eebc[m Update build.yml
+[33ma9ee0c7e[m Delete obsolete FUNDING.yml
+[33m73b7f11d[m Also push builds to https://github.com/Vencord/builds (#344)
+[33md806be13[m feat(PlatformIndicators): add indicator to messages (#343)
+[33m1f73cfa9[m EmoteCloner: Use CDN_HOST variable to support unofficial backends (#356)
+[33m7e607736[m feat(plugins): DisableDMCallIdle (#355)
+[33m103c4993[m Monaco Popup: Add metadata, store window instance
+[33m9dcafbf4[m Fix Notices
+[33m1742bb60[m Fix StartupTimings (#353)
+[33m0743c121[m Add canary test
+[33m94ad8e8f[m Add useEffect/useState/useMemo to webpack commons
+[33m989bd36e[m refactor: identifier escapes + "self" group (#339)
+[33m4974c53f[m Improve PronounDB patch (#348)
+[33m47de9fab[m Make some changes to reviewdb ui and add badges to it (#245)
+[33m3efc7922[m [ShowHiddenChannels] Fix last message date (#342)
+[33m45616425[m fix(MessageLogger): Fix module not being found (#338)
+[33mc257f865[m Fix experiments
+[33mf6122a00[m feat(NoReplyMention): exempt list support (#337)
+[33mf1bdfdd6[m Update nsfwGateBypass.ts
+[33mc8f21411[m feat(plugin): add MessageLinkEmbeds (#264)
+[33mfea8c60a[m hotfix injector for ptb/canary/dev (#330)
+[33ma67db11d[m Improve Settings UI & View Raw Modal (#332)
+[33m9a088b7a[m MoreKaomoji: Add more kaomoji (#299)
+[33mebb8da0f[m fix(FakeNitro): more reliable patches (#304)
+[33mf2e05426[m New Plugin: NSFWGateBypass (#300)
+[33mee244397[m feat(plugin): sort friend requests by date received (#280)
+[33m022bf171[m fix inconsistent margins & capitalisation (#281)
+[33m2de46198[m fix(ShikiCodeblocks): spoilers (#298)
+[33m2d08dd8a[m Shiki settings preview (#297)
+[33m49b45d82[m google changed their shit (#294)
+[33m8a5a5c7d[m UserScript: add csp bypassing fetch (#284)
+[33m53d0a555[m refactor(IgnoreActivities): Use React Components and support Embedded Activities (#282)
+[33m25ef5d60[m add me to contributors (#287)
+[33mc74241fd[m add commas in member count (#286)
+[33m4d8145f1[m Fix arrpc
+[33md4f70218[m ci: Do not release extension-v2.zip
+[33m6b4b4772[m Update README.md
+[33m54010aab[m fix: hljs fallback (#283)
+[33m62b2aceb[m Add support for Flatpak for Git updating (#274)
+[33m41dddc9e[m feat(plugin): ShikiCodeblocks (#267)
+[33m4760af7f[m add ViewRaw plugin & MiniPopover API (#275)
+[33m06d32ae4[m browser: remove firefox extension id
+[33m2564ab73[m ci: unlisted firefox builds for now
+[33m5e97cc0f[m QuickCss: Hide MenuBar; explicitly enable contextIsolation
+[33mb9e9d9bd[m Add --vanilla flag, strip csp on mainFrame only
+[33mdaf3a1dc[m Try to make firefox publish work
+[33mf1fb79d2[m Fix workflow
+[33m0ff6d3dd[m Add Firefox extension build (#277)
+[33m734054ff[m feat(Settings): Allow moving Vencord section to different places
+[33mf94cbfb2[m Add basic themes tab
+[33mfc09460d[m feat(plugin): add ServerListIndicators (#272)
+[33me884738f[m MemberCount: Fix misleading count, add tooltip
+[33mc583bad6[m the shiggy wiggy (#270)
+[33m36b78781[m Add MemberCount plugin
+[33m836ae720[m Delete report.md
+[33md0a40bc0[m chore: update deps
+[33m3b4879f9[m perf(settings): Cache proxies
+[33ma0a1a4d1[m enforce path aliases with eslint
+[33mbad96b78[m Path aliases, better lazyWebpack (#268)
+[33m7a4402f1[m BlurNSFW: Support videos
+[33m3e9672c6[m oop
+[33ma9fee624[m BlurNSFW: Add amount setting
+[33mf0ee16f1[m [skip ci] update genPluginList
+[33m3db3c63b[m BlurNsfw plugin
+[33m4fc41c8c[m fix: add predicate to updater menu item (#266)
+[33m47c181be[m [skip ci] Add support for DVM installation path. (#265)
+[33mc4fc01c7[m [skip ci] feat(ci): test web builds (#262)
+[33m5a942015[m Megu blowing up main :blobcatcozyscared: :trolleybus:
+[33m6b55dee9[m feat(settings): new settings design (#261)
+[33ma85ec594[m [skip ci] docs docs docs
+[33mc2c6c9fc[m CallTimer: Fix lag
+[33mb60f6cb1[m WhoReacted: Make more reliable & don't spam api
+[33mbb398970[m HideAttachments: Fix embeds
+[33m50a96e80[m CallTimer: Fix typo
+[33mc5b5b754[m CallTimer
+[33m0f644dff[m loadingQuotes quote fix (#255)
+[33m6210d3a5[m Make ReviewDB Look More Native (#256)
+[33me7573382[m fix(betterNotes): add restart needed for hide notes patch (#258)
+[33mf4d7a1f4[m New Plugin: BetterNotesBox
+[33m5dd0a3a7[m New Plugin: HideAttachments
+[33mc9fac8ff[m fix tags
+[33mf93607fc[m add new quotes to loadingQuotes (#254)
+[33m63ffb5be[m feat(messageTags): Add message quick reply plugin (#241)
+[33m2788d264[m feat(plugin): Urban Dictionary  (#222)
+[33m91f1d68e[m feat(plugins): Keep Current Channel plugin (#248)
+[33m7e4f4f17[m feat(plugins): Volume Booster plugin (#249)
+[33m9f7ec0aa[m settings: better button text for plugin settings modal (#251)
+[33m0239bb0a[m Commands: Show plugin name instead of 'Built-In'
+[33mec20556d[m PlatformIndicators: Fix icon colours
+[33m11191b59[m Update 1_INSTALLING.md
+[33m1f72a0fc[m fix(arRPC): fix error on null activity (#244)
+[33m31ec1ec1[m better platformindicators settings (#243)
+[33m0f7c80fd[m Fix no gap (#242)
+[33mb5bc88c7[m Settings export/import (#235)
+[33mb42b8d75[m Platform indicators: ignore unnecessary element (#240)
+[33mbfe1fd99[m fix: add keys to plugins grid (#237)
+[33mc45d8969[m make userscript autoincrement version :trollface: (#233)
+[33m0a92bd65[m PlatformIndicators: Fix server list
+[33m33c33eb0[m feat(plugin): PlatformIndicators (#227)
+[33mdcf1148b[m feat(plugin): TimeBarAllActivities (#228)
+[33m58e28b42[m feat(fakeNitro): add an option to change emote sizes (#225)
+[33mbb14d498[m feat(plugin): NoUnblockToJump (#229)
+[33m9bcdc845[m feat(arRPC): update for server 2.2 (#230)
+[33m46b14cb2[m feat(plugins):WhoReacted keep reaction count (#231)
+[33m9240865f[m feat(arRPC): update for server 2.0 (#224)
+[33me85d763f[m feat(plugin): WebRichPresence (arRPC) (#223)
+[33m82911386[m oop
+[33me63ed9ca[m onekocord
+[33mba45ecda[m feat(plugin): Last.fm rich presence (#220)
+[33m7ff2d2ba[m fix startup timings page (#219)
+[33ma5154d62[m feat(plugin): Quick mention button (#218)
+[33m5ce2dc1b[m feat(plugin): Read all notifications button (#217)
+[33m8f2c247f[m Fix commands showing up multiple times Part 2
+[33m43f41d20[m Fix commands showing up multiple times
+[33m50c356e3[m fix brain fart
+[33m503a2ec5[m Add option to ignore incoming blocked messages (#179)
+[33m83b3b1f1[m fix settings debug info on web
+[33m2628bdce[m WebContextMenus: Port copy/open link items to Discord Web
+[33m8b0911b8[m Updater: Ignore non release commits
+[33m47d127a8[m Update FUNDING.yml
+[33m41061372[m Donor Badges && Add donate info to settings
+[33m8b3f290e[m Create FUNDING.yml
+[33ma7888133[m VencordWeb: Migrate to manifest v3
+[33me1de6f88[m Unexplode Modals on canary
+[33mae86848c[m Fix ReviewDB
+[33m84ec839b[m Add ReviewDB Plugin (#187)
+[33mb30508ae[m better handling for settings ui errors
+[33meabbf7d9[m fix(fakeNitro): add missing predicate for sticker bypass (#215)
+[33mbe088f90[m Don't unnecessarily create functions many times
+[33m2ca98a87[m Fix Settings UI on canary
+[33mb49ac6b5[m ClickableRoleDot -> BetterRoleDot; now allows using both role colour styles at once
+[33m82e444e1[m Less confusing plugin names (bulk plugin rename) (#214)
+[33ma96f8a89[m MessageLogger: fixes + ignoreSelf & ignoreBots option (#213)
+[33m4642b542[m feat(plugin): FriendInvites (#208)
+[33m15b257a7[m Friendlier Readme
+[33m0dbec8d0[m feat: message logger plugin (#49)
+[33me5b23ff5[m EmoteYoink: Don't depend on ReverseImageSearch whoopsie
+[33m9110d1f9[m Emote Clone plugin
+[33m81edc140[m fix PronounDB crash with new profile in dms, force start dependencies
+[33mb48c8d8a[m NitroSpoof: Fix inbuilt sticker logic; cleanup
+[33m83803284[m InteractionKeybinds: Scroll to message if offscreen
+[33m30ca4f1c[m feat: Badge API (#206)
+[33m62e0787c[m fix(plugins): Fix IgnoreActivities (#205)
+[33mcc7c14ec[m Reporting: do not error for patches with all:true
+[33ma86452e7[m fix react hook error
+[33mdddb2819[m even more plugin fixes
+[33m2133823b[m more plugin fixes
+[33m1176896a[m fix(plugins): PronounDB, ViewIcons, WebhookTags, NoBlockedMessages, BetterGifAltText, MessageAccessories
+[33mf3aba3ed[m ci: Add webhook secret to reporter env
+[33m409e54a9[m ci(reporter): Post results to discord webhook
+[33m31fb19b8[m ci: Hopefully fix reporting
+[33ma26f636c[m ci: Automated plugin test with puppeteer
+[33m8ba9c96f[m Fix most plugins
+[33m57f3feba[m spotifyControls: make album of local tracks unclickable (#203)
+[33m010523ee[m feat(plugins): add vc effect event to moyai plugin (#199)
+[33m15f12073[m spotifyControls: make title/artists of local tracks unclickable (#201)
+[33m58636a9a[m CorruptMp4s: Depend on CommandsAPI ~ PronounDB: Add pronoundb link
+[33m0bc894d0[m CorruptMp4s: Better default
+[33m6f38c4b7[m new plugin(CorruptMp4s): Mp4s with infinite/negative duration
+[33mc1d2f007[m StickerSpoof: Fix not correctly cleaning previous frame
+[33m3c8084ec[m Add VSCode debug config
+[33m3b65384b[m fix(spotifyControls): add album/cover null checks (local files) (#198)
+[33me0450531[m StickerSpoof: fix small resolutions; AnonymiseFiles: fix extension logic
+[33mb032e9b6[m oop
+[33m1e6b967d[m Fix moyai and fart
+[33m460f329e[m fix double click actions using outdated content
+[33m3a3a52c4[m fix(NitroBypass): Fix using stickers bypass with Nitro Classic (#196)
+[33m4e57ae66[m feat(SpotifyControls): prettier design (#194)
+[33mf7d9be91[m lint: Disallow utils index imports
+[33m955573d3[m me when i dont depend on MenuItemDeobfuscatorApi
+[33m6a856408[m SpotifyControls plugin (#190)
+[33m7d5ade21[m feat(nitroBypass): add sticker bypass (#184)
+[33md69dfd62[m ahem
+[33m177d353f[m Rename DevBuild releases to include git hash
+[33ma13c0df1[m build: Add metadata header to all bundles
+[33m0af45792[m Add tracer, fix MessageActions slow startup
+[33m851d07f3[m fix(ReverseImageSearch): Don't apply to non image files
+[33m963a7332[m Migrate proxied components to and fix LazyComponent
+[33m440baf60[m Improve proxyLazy
+[33m9663e229[m feat(plugins): add Startup Timings (#189)
+[33m0cb24cad[m feat: make text selectable in PatchHelper (#188)
+[33m65620f49[m Webpack: Do not emit errors if devtools open
+[33mcb7469af[m Simplemarkdown pleeeeease
+[33m2c3dee41[m qol improvements
+[33mc20dc269[m Modify CSP instead of deleting it
+[33ma7795533[m Remove clipboardImageFix - Discord fixed the bug woooooo
+[33m5e1b4212[m Fix plugins on new update
+[33m676f5c7e[m ViewIcons: size 2048 -> 512, to fit on screen
+[33m13c73699[m Fix Webpack modules that are not arrow funcs, Part II
+[33m64aed87d[m Fix Webpack modules that are not arrow funcs
+[33m1944f395[m fix forceOwnerCrown Plugin Spamming Errors in Console (#180)
+[33m04d6f341[m PatchHelper, a tool to help you write patches (#182)
+[33m0c25278c[m fix renamed app.asar detection on Windows (#185)
+[33m0fda900c[m Fix: settings.appearance may be undefined
+[33m8adf7ca1[m Webpack Warnings & Errors (#178)
+[33mb9057430[m removed channel type (#170)
+[33ma43a41f6[m vcDoubleClick: don't require dbl click on active vc, fix stage channels (#172)
+[33m3af9a14a[m Patcher: More useful errors with code diffs (#177)
+[33m739b1e47[m New plugin: LoadingQuotes
+[33md7254240[m Implement Subcommands; fix errors due to Settings <-> Plugins circular imports (#174)
+[33m95aa2d9d[m ClipboardImageFix is not actually required
+[33m93859883[m build: inject createElement alias (#176)
+[33m37105ac4[m feat(plugin): ClipboardImageFix (#173)
+[33mf6e0efe2[m Reverse image search plugin
+[33m1764206e[m Add MenuItemDeobfuscator
+[33m6b0caaae[m fix(ShowHiddenChannels): Fix New unreads box for hidden channels #168
+[33mc76e9f5e[m better patch & visual bug fix (#167)
+[33mce73a5f1[m use gh cli to update release (#166)
+[33m9548978d[m fix(IgnoreActivities): id -> exePath (#164)
+[33m13882b57[m feat: custom components in settings (#165)
+[33m49e72bab[m moarKaomojis plugin  (#137)
+[33mbbd36330[m fix(Ignore Activities): Fixes games manually added not being able to be ignored (#162)
+[33mc65f757b[m Fix betterUploadButton
+[33mb87f0bf3[m Settings: Cache default value
+[33m670b7d7d[m Make tsc happy
+[33mf492d263[m Make jsFactory shorter -> bundle size -10%
+[33m56b00f71[m ci: Only rebuild on actual code changes
+[33mfe5a78dd[m Update README
+[33m5e7c155f[m feat(settings): add beforeSave check (#161)
+[33me06ba68c[m fix(vcDoubleClick): add required parentheses (#160)
+[33md6fe937a[m fix(vcDoubleClick): exclude text channel mentions (#159)
+[33m2f46b934[m feat: add new plugin ForceOwnerCrown (#157)
+[33m2af324c3[m Improve genPluginList
+[33m4bddcee4[m Add autogenerated plugin list, closes #151
+[33m559edbff[m Fix vcDoubleClick, add support for stage channels (#158)
+[33m6c383624[m Ignore Activities: Fix button not working (#156)
+[33m00402c69[m feat(plugin): Ignore Activities (#142)
+[33m30dd4b9e[m [ShowHiddenChannels] Add last message info, fix collapsing (#146)
+[33m5fac8be0[m Vencord Standalone without git/node (#148)
+[33mffbb5251[m fix: plugin dependencies not enabling (#150)
+[33mff9d904f[m Update license headers in files created by Samu (#149)
+[33m50c0d472[m feat(NoCanaryMessageLinks): Allow custom subdomains (#147)
+[33mabbc08fb[m feat(plugin): Show Hidden Channels (#101)
+[33m409fb6ff[m encoding binary doesn't return a buffer??
+[33m934a89ad[m feat: switch in plugin settings (#140)
+[33ma3b0556a[m buildWeb: use fflate instead of yazl
+[33m35d2b8d1[m patcher: Add back support for discord_arch_electron
+[33m0328966e[m Unbrick OpenAsar installs
+[33m2eb8f3ae[m oops, add plugin to deps
+[33m61fd38d6[m style: Sort imports
+[33ma7dbd735[m Windows: Patch host updater to reinject (#138)
+[33mc116d00d[m Implement Chrome extension loading myself because electron-devtools-installer is ultra bloated
+[33m44f6f71c[m Monaco for Discord Desktop
+[33m23d4cae1[m Installer: add custom path option (#77)
+[33m0da02e00[m Remove now obsolete licensing info from README
+[33m7d555a96[m fix userscript, lint new files
+[33mf92f3f1a[m Add license headers
+[33m6769de29[m feat(api): add Clipboard entry in webpack common (#127)
+[33me2b622c7[m feat(api): Message Accessories API (#131)
+[33m4b1e96b7[m Vencord Web: QuickCss Monaco Editor
+[33me93111fb[m Update nitroBypass.ts (#132)
+[33mccf7f66a[m Update PronounDB Plugin (#115)
+[33md8afde2b[m feat(plugins): Moyai ignore bots setting (#130)
+[33ma15d5de4[m New plugin: vcDoubleClick
+[33m05051399[m Fix error when enabling a plugin with commands if CommandsAPI hasn't loaded
+[33me4068ef9[m Document apis
+[33mc80ed1b8[m legal: Make esbuild generate & link licensing information
+[33m50047dd3[m Add DataStore (IndexedDB wrapper)
+[33m36f4478a[m more eslint
+[33m350e7b0a[m feat(moyai): Add option to toggle triggering moyai when the window is not focused (#123)
+[33m7eba5b99[m feat: add sendify plugin (#122)
+[33mf81ab5ef[m Add volume settings to fart plugin (#113)
+[33m1f50f789[m feat: settings sliders (#120)
+[33mefab3993[m feat(BANger): Customisable gif or video (#121)
+[33mdd1537a5[m feat(plugin): Ify improvements (#119)
+[33md97c3e2e[m Fix ViewIcons, make banner have right cursor
+[33m7cdc4e4c[m feat: randomiseFileNames -> anonymiseFileNames (#116)
+[33md3bf5cec[m Fix nitroBypass
+[33ma4303e38[m README: fix link
+[33m1ea8a0b6[m Add License details
+[33m139dd7a9[m fix(interactionKeybinds): disable ping when replying to own message (#118)
+[33mb66903cf[m Settings: Implement plugin options defaults (#117)
+[33m28717345[m Updater: Fix error when update check fails
+[33mbeb9aae2[m show only the dependants that are enabled (#111)
+[33m9d6021f0[m feat: gitignored src/userplugins directory (#112)
+[33m5a18292d[m fix(Experiments): Broken isStaff match
+[33m5625d63e[m Settings 2.0 (#107)
+[33mae730e83[m Add pronoundb plugin (#104)
+[33mad054d5c[m Fix messageActions
+[33m82d53b19[m added mock command (#103)
+[33mc7c5ffdd[m Allow customising SettingsDir via VENCORD_USER_DATA_DIR environment variable (#106)
+[33m0ccea164[m Unbrick updater
+[33m20237f56[m watch: enable sourcemaps and disable minify
+[33m01ae0983[m Optimise Web via treeshaking, cleanup build scripts
+[33m845088ec[m buildWeb: suppress experimental api warnings
+[33m9c7b548a[m BrowserExtension: Disable CSP
+[33mc8d87da6[m fart: lazy Audio, moyai: fix cors issues
+[33m0d996633[m ViewIcons: Use ImageModal again
+[33ma4e98f92[m proxyLazy: Fix constructors
+[33m53794ec1[m Fix jsdoc
+[33m29633653[m Fix modals, add wp.mapMangledModule
+[33m563f2fb1[m Add workspace settings for vscode
+[33md73a6e2c[m Fix fxTwitter regex (#100)
+[33m2cb6c233[m add choices to CommandsAPI Options (#94)
+[33m87b6d6ab[m Patch#all option to patch duplicate modules (#99)
+[33mbf49acd5[m Fix Settings errors when retrieving a null value; add PlainSettings
+[33mea0ded0f[m Populate package.json fields
+[33md26196d6[m Add a UserScript build
+[33m5fe04c58[m turns out electron13 has no array.at()
+[33ma73e10fc[m quickReply => InteractionKeybinds: now supports edits (#95)
+[33m8817e2df[m Reorganise command plugins
+[33m267b2b1a[m Commands: basic error handling
+[33m83d480a6[m Fix bots showing as webhook
+[33mebe62a17[m FakeClyde (plugin) and sendBotMessage (API addition) (#66)
+[33m09b3f6d1[m ci: rename lint -> test
+[33m8dff79d3[m petpet: fix guild pfps
+[33m9b7ebe46[m petpet
+[33m8e93c5cb[m CommandsApi: fix accidently overwriting inputType BUILT_IN
+[33m66f8fde3[m Improve ErrorBoundary layout
+[33m071508c6[m fix(Webhook Tags): Don't mark clyde messages as Webhook
+[33mbfb4114e[m feat(plugin): UnminifyErrors (#90)
+[33m6afd9595[m feat(plugin): No F1 (#88)
+[33m86eacea7[m Make ReactDevTools Opt-in
+[33m516f8c48[m Switch to standalone-electron-types, -200MB npms
+[33mc3242688[m Add CI (#87)
+[33m39a7b2f5[m feat(plugin): No RPC (#84)
+[33m7a0560b9[m Fart plugin (#71)
+[33me685e399[m fix(plugin): fix isStaff returning true for all users (#83)
+[33m54198b1a[m fxTwitter (plugin) (#80)
+[33m124d1ad9[m Plugin that removes canary subdomain from message (#60)
+[33mabfade4f[m Update lockfile
+[33ma89e17a3[m Make typescript happy, tsc test run in CI
+[33m5610df8b[m Holy shidd Aliucod Desktop real????
+[33m9e6ee4df[m Fail on build error
+[33m304bf4fe[m Unignore lock file
+[33m25a64ab6[m Update lint.yml
+[33ma3c2da31[m Specify pnpm for corepack (#27)
+[33mf875d63c[m Fix webpack search
+[33me7fb4ebd[m Protocol whitelist (#70)
+[33m2105de8c[m Add more Webpack Commons & utils
+[33mbb7332ce[m Moyai: Support Reactions, ignore bots
+[33m43951456[m 🗿🗿🗿
+[33md3c581eb[m 🗿🗿🗿 (#75)
+[33m151f2eef[m Improve plugin typings
+[33me0bbdd89[m fix lazyWebpack.construct, lint uwuify
+[33mb101e643[m added uwuify, but correct (#56)
+[33mdea34503[m Add more eslint rules
+[33m0109381a[m feat(plugin): add quickreply (#61)
+[33m8842ad76[m Description change for Spotify Plugin (#63)
+[33m73a1bc94[m fix(lazyWebpack): implement more proxy traps (#65)
+[33mea14bad8[m Use GitHub-specific markdown (#67)
+[33mf9a682f1[m docs docs docs docs (#59)
+[33m175c1a78[m fix(plugin): fix stream quality bypass in nitroBypass (#57)
+[33m74c3930e[m add eslint config (#53)
+[33me5635214[m Add commands API (#38)
+[33ma9e67aa3[m pnpm inject/uninject instead of patch/unpatch
+[33m25fcc528[m Updater: Inform about more recent commits
+[33m44397892[m Updater: Exclude more recent local commits
+[33m45644dec[m feat(plugin): add clearURLs (#47)
+[33m3e0355cb[m Fix consoleShortcuts for web
+[33m7e526e41[m Kill unsafe require
+[33m98cfa090[m feat(plugin): add webhookTags (#46)
+[33m77aa0c78[m fix(plugin): add MessageEventsAPI to dependencies of unindent (#48)
+[33me010b2d6[m fix(installer): Fix patch conflict with newer pnpm versions (#44)
+[33mdafbd391[m Fix ify not preventing auto-pausing without premium (#28)
+[33m88542b9e[m feat(installer): Implement cross-platform patcher. (#39)
+[33mc5e0c7a6[m fix(randomiseFileNames): work correctly on web (#40)
+[33me1027e06[m fix(plugins): Fixed BANger (#41)
+[33mf1a31a61[m feat: no blocked messages plugin (#34)
+[33m8186fe29[m gitignore lockfile
+[33ma6551957[m fix NoDevtoolsWarning for web
+[33m3a9f6926[m Fix Desktop thinking it's web
+[33me35393b4[m feat: no system badges plugin (#33)
+[33m0a2c637c[m Update README.md
+[33mcc257533[m feat: Experimental browser support
+[33ma9eae106[m Cleanup deps
+[33mf2d913c6[m feat(plugin): add betterUploadButton (#32)
+[33m8fe60971[m security: remove openPath, restrict openExternal
+[33m71a59f40[m Remove electron level telemetry blocking
+[33m07ed4fa0[m Update README.md
+[33me454ffbf[m Update README
+[33md102d5d9[m Make NitroBypass only add spaces when there are none (#26)
+[33m46585efc[m feat(plugins): Add isStaff plugin (#25)
+[33me4c41d5d[m feat(plugin): add RandomiseFileNames (#24)
+[33mca2f9d93[m feat(plugin): add NoReplyMention (#23)
+[33m19801321[m Clean up main
+[33macd24cdc[m Merge branch 'main' of github.com:Vendicated/Vencord
+[33mf31fd75e[m UpdaterPage: Do not error if update check failed
+[33macf06203[m some tweaks (#22)
+[33m57d586fa[m Updater: Properly clear changelist after update
+[33m2410582c[m Dedicated Updater Page, Settings feedback
+[33mcac77dce[m Fix DiscordNative.desktopCapture.getDesktopCaptureSources() in electron17+
+[33mbe94dbbc[m Fix NitroBypass
+[33m967b101a[m feat(plugin): iLoveSpam (#19)
+[33m18b6bce1[m Add contributing link in readme (#21)
+[33m784e9ec9[m Expose QuickCss and Updater on global; consoleShortcuts plugin
+[33me784ecda[m Add Contributing guide (#20)
+[33m175bf1b6[m feat(plugin): add muteNewGuild Plugin (#17)
+[33mef353f1d[m Better authors field (#18)
+[33m3e640542[m feat(plugins): add folder svg icon plugin (#16)
+[33mbfee3071[m Fix commit info 2: Electric Boogaloo
+[33m24340655[m Fix commit info
+[33m8161a07d[m Add in client updater, Notices API
+[33m9aaa47ea[m BetterGifAltText: Decode url encoded jazz
+[33m3c2bbb69[m SilentTyping
+[33m86c4bb7f[m Improve webpack performance (~ 80ms -> 15ms)
+[33m0677df78[m BetterGifAltText sanity checks
+[33m48477e19[m BetterGifAltText
+[33m02ed954c[m Add clickableRoleDot plugin, toasts
+[33m532fa8f7[m Improve install instructions
+[33m48ebd71a[m Update README.md
+[33m815131dd[m Fix Experiments
+[33m4759ca53[m Fix ViewProfileImages
+[33m0444233d[m Undo the oopsie
+[33m572bfcee[m Fix Settings UI
+[33m6398dd25[m Unbrick Vencord - Pt 1
+[33md0940a8b[m Make raw.githubusercontent.com work for css imports
+[33m71a60a03[m Add .editorconfig; reformat project
+[33m5f62d2d3[m Just found out esbuild has a logLevel prop
+[33m8cc43cdc[m Add Megu to Experiments author
+[33mb6d2f50d[m fix(experiments): Patch canUseOverrides variable (#11)
+[33m204ce675[m Add Webpack.search and Webpack.extract
+[33m37e81c01[m patchWebpack: Fix toString on replaced factory methods
+[33m66098b18[m feat(installer) Windows powershell installer and uninstaller (#10)
+[33m2fcd075f[m Improve installer
+[33m358f77e5[m install.sh: Add support for discord_arch_electron pkg
+[33mdc6b3270[m Update README.md
+[33m48014989[m Update LICENSE
+[33m9bf28c0e[m Remove newlines in webpack chunks
+[33mb1d3f5e5[m Fix settings patch
+[33m5b2b91ed[m ViewIcons: Fix crash when developer mode is off
+[33m6099179f[m ViewIcons: Now opens icons in image viewer
+[33me5222530[m Add modal api
+[33m4f531b36[m MessageActions: ignore dblclicks if already editing the msg
+[33ma72dedb9[m better anti devtools; disable sourcemaps
+[33m96fed019[m feat: 20% more swag
+[33medbe8dbc[m cummies
+[33m83cdd869[m Webpack: Expose cache and require
+[33m9aed4d27[m add BANger (#8)
+[33m1645913b[m Improve settings listener api
+[33m113f47ca[m Add QuickCss toggle; add settings listener api
+[33m8a8c6a4b[m ViewIcons: Fix error when clicking nonexistant banner
+[33m3dd294e2[m Add viewIcons
+[33m68057d49[m Debounce CssWatcher, fix empty tooltips in settings
+[33m02aeca6b[m add ify (#7)
+[33m71072cf3[m noTrack: switch to patches (#6)
+[33m5488f5ce[m Better patch errors
+[33m138682f3[m Fix: Create SETTINGS_DIR if it doesnt exist
+[33meef407e9[m Update LICENSE
+[33mbac1e6ab[m Create LICENSE
+[33mf83b4bf1[m Update README.md
+[33mdec2ae1d[m Update README.md
+[33mab9f77e7[m Fix messageActions
+[33md4eadf93[m BrowserWindow: Disable sandbox to fix electron>=21
+[33m9951e0bc[m Settings: Calculate dependencies
+[33m78deb0eb[m Fix settings corrupting
+[33m7ce37f85[m Unindent, plugins is now an object instead of  []
+[33mb2f762fd[m Revert patcher to console.log
+[33mf60ccb76[m Add Plugin.start, make Settings actually start/stop plugins
+[33mbac8a648[m Update dependencies
+[33m9b4926cc[m Fix webpack path
+[33mc3ff0921[m Add nitro bypass (#4)
+[33ma7ccbcfc[m Refactor webpack; Add ErrorBoundary
+[33m98cb301d[m Make Settings & Settings Page
+[33mcb288e20[m Add Settings 'page', gitHash, electron version in settings
+[33m80b279d3[m Fix installer
+[33m704516a6[m Add install instructions!! :3
+[33m483bc13a[m Finish rewrite
+[33mc39ff8f6[m More progress
+[33m1709ab61[m Fix NPE when opening DevTools
+[33m876e622f[m Progress
+[33maf498e78[m Rewrite

@@ -20,7 +20,11 @@
 
 declare module "~plugins" {
     const plugins: Record<string, import("./utils/types").Plugin>;
+    const elysiumPlugins: Record<string, import("./utils/types").Plugin>;
+
     export default plugins;
+    export default elysiumPlugins;
+
     export const PluginMeta: Record<string, {
         folderName: string;
         userPlugin: boolean;
