@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/ItzMarni/ItzMarni/blob/main/public-data/elysium/templogo.png?raw=true" alt="Elysium" width="96"/>
+    <img src="https://github.com/ItzMarni/ItzMarni/blob/main/public-data/elysium/newlogo.png?raw=true" alt="Elysium" width="96"/>
     <h1>Elysium</h1>
     <p>Fork of vencord with extra shit I guess</p>
 </div>

@@ -16,6 +16,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+// TODO - Elysium : Add elysium badges (disabled by default)
+
 import "./fixBadgeOverflow.css";
 
 import { _getBadges, BadgePosition, BadgeUserArgs, ProfileBadge } from "@api/Badges";
@@ -45,7 +47,13 @@ const ContributorBadge: ProfileBadge = {
 
 let DonorBadges = {} as Record<string, Array<Record<"tooltip" | "badge", string>>>;
 
+const hideDonorBadges = VencordNative.settings.get().elysiumHideDonorBadges;
+
 async function loadBadges(noCache = false) {
+    if (hideDonorBadges) {
+        return;
+    }
+
     DonorBadges = {};
 
     const init = {} as RequestInit;
