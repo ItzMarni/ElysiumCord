@@ -390,6 +390,195 @@ export default function PluginSettings() {
     );
 }
 
+// This can probably be done way easier but oh well, ctrl+c ctrl+v moment ;D
+export function ElysiumPluginSettings() {
+    const settings = useSettings();
+    const changes = React.useMemo(() => new ChangeList<string>(), []);
+
+    React.useEffect(() => {
+        return () => void (changes.hasChanges && Alerts.show({
+            title: "Restart required",
+            body: (
+                <>
+                    <p>The following plugins require a restart:</p>
+                    <div>{changes.map((s, i) => (
+                        <>
+                            {i > 0 && ", "}
+                            {Parser.parse("`" + s + "`")}
+                        </>
+                    ))}</div>
+                </>
+            ),
+            confirmText: "Restart now",
+            cancelText: "Later!",
+            onConfirm: () => location.reload()
+        }));
+    }, []);
+
+    const depMap = React.useMemo(() => {
+        const o = {} as Record<string, string[]>;
+        for (const plugin in Plugins) {
+            const deps = Plugins[plugin].dependencies;
+            if (deps) {
+                for (const dep of deps) {
+                    o[dep] ??= [];
+                    o[dep].push(plugin);
+                }
+            }
+        }
+        return o;
+    }, []);
+
+    const sortedPlugins = useMemo(() => Object.values(Plugins)
+        .sort((a, b) => a.name.localeCompare(b.name)), []);
+
+    const [searchValue, setSearchValue] = React.useState({ value: "", status: SearchStatus.ALL });
+
+    const search = searchValue.value.toLowerCase();
+    const onSearch = (query: string) => setSearchValue(prev => ({ ...prev, value: query }));
+    const onStatusChange = (status: SearchStatus) => setSearchValue(prev => ({ ...prev, status }));
+
+    const pluginFilter = (plugin: typeof Plugins[keyof typeof Plugins]) => {
+
+        // Exclude plugins with no pluginType (which are vanilla Vencord plugins)
+        // or with pluginType specifically set to Vencord.
+        if (!plugin.pluginType || plugin.pluginType === PluginType.vencord) {
+            return false;
+        }
+
+        const { status } = searchValue;
+        const enabled = Vencord.Plugins.isPluginEnabled(plugin.name);
+
+        if (enabled && status === SearchStatus.DISABLED) return false;
+        if (!enabled && status === SearchStatus.ENABLED) return false;
+        if (status === SearchStatus.NEW && !newPlugins?.includes(plugin.name)) return false;
+        if (!search.length) return true;
+
+        return (
+            plugin.name.toLowerCase().includes(search) ||
+            plugin.description.toLowerCase().includes(search) ||
+            plugin.tags?.some(t => t.toLowerCase().includes(search))
+        );
+    };
+
+    const [newPlugins] = useAwaiter(() => DataStore.get("Elysium_existingPlugins").then((cachedPlugins: Record<string, number> | undefined) => {
+        const now = Date.now() / 1000;
+        const existingTimestamps: Record<string, number> = {};
+        const sortedPluginNames = Object.values(sortedPlugins).map(plugin => plugin.name);
+
+        const newPlugins: string[] = [];
+        for (const { name: p } of sortedPlugins) {
+            const time = existingTimestamps[p] = cachedPlugins?.[p] ?? now;
+            if ((time + 60 * 60 * 24 * 2) > now) {
+                newPlugins.push(p);
+            }
+        }
+        DataStore.set("Elysium_existingPlugins", existingTimestamps);
+
+        return lodash.isEqual(newPlugins, sortedPluginNames) ? [] : newPlugins;
+    }));
+
+    const plugins = [] as JSX.Element[];
+    const requiredPlugins = [] as JSX.Element[];
+
+    const showApi = searchValue.value.includes("API");
+    for (const p of sortedPlugins) {
+        if (p.hidden || (!p.options && p.name.endsWith("API") && !showApi))
+            continue;
+
+        if (!pluginFilter(p)) continue;
+
+        const isRequired = p.required || depMap[p.name]?.some(d => settings.plugins[d].enabled);
+
+        if (isRequired) {
+            const tooltipText = p.required
+                ? "This plugin is required for Vencord to function."
+                : makeDependencyList(depMap[p.name]?.filter(d => settings.plugins[d].enabled));
+
+            requiredPlugins.push(
+                <Tooltip text={tooltipText} key={p.name}>
+                    {({ onMouseLeave, onMouseEnter }) => (
+                        <PluginCard
+                            onMouseLeave={onMouseLeave}
+                            onMouseEnter={onMouseEnter}
+                            onRestartNeeded={name => changes.handleChange(name)}
+                            disabled={true}
+                            plugin={p}
+                            key={p.name}
+                        />
+                    )}
+                </Tooltip>
+            );
+        } else {
+            plugins.push(
+                <PluginCard
+                    onRestartNeeded={name => changes.handleChange(name)}
+                    disabled={false}
+                    plugin={p}
+                    isNew={newPlugins?.includes(p.name)}
+                    key={p.name}
+                />
+            );
+        }
+    }
+
+    return (
+        <SettingsTab title="Plugins">
+            <ReloadRequiredCard required={changes.hasChanges} />
+
+            <Forms.FormTitle tag="h5" className={classes(Margins.top20, Margins.bottom8)}>
+                Filters
+            </Forms.FormTitle>
+
+            <div className={classes(Margins.bottom20, cl("filter-controls"))}>
+                <TextInput autoFocus value={searchValue.value} placeholder="Search for a plugin..." onChange={onSearch} />
+                <div className={InputStyles.inputWrapper}>
+                    <Select
+                        options={[
+                            { label: "Show All", value: SearchStatus.ALL, default: true },
+                            { label: "Show Enabled", value: SearchStatus.ENABLED },
+                            { label: "Show Disabled", value: SearchStatus.DISABLED },
+                            { label: "Show New", value: SearchStatus.NEW }
+                        ]}
+                        serialize={String}
+                        select={onStatusChange}
+                        isSelected={v => v === searchValue.status}
+                        closeOnSelect={true}
+                        className={InputStyles.inputDefault}
+                    />
+                </div>
+            </div>
+
+            <Forms.FormTitle className={Margins.top20}>Plugins</Forms.FormTitle>
+
+            {plugins.length || requiredPlugins.length
+                ? (
+                    <div className={cl("grid")}>
+                        {plugins.length
+                            ? plugins
+                            : <Text variant="text-md/normal">No plugins meet the search criteria.</Text>
+                        }
+                    </div>
+                )
+                : <ExcludedPluginsList search={search} />
+            }
+
+
+            <Forms.FormDivider className={Margins.top20} />
+
+            <Forms.FormTitle tag="h5" className={classes(Margins.top20, Margins.bottom8)}>
+                Required Plugins
+            </Forms.FormTitle>
+            <div className={cl("grid")}>
+                {requiredPlugins.length
+                    ? requiredPlugins
+                    : <Text variant="text-md/normal">No plugins meet the search criteria.</Text>
+                }
+            </div>
+        </SettingsTab >
+    );
+}
+
 function makeDependencyList(deps: string[]) {
     return (
         <React.Fragment>
