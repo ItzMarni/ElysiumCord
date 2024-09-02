@@ -58,10 +58,19 @@ export interface PluginAuthor {
     id: BigInt;
 }
 
+// Todo - ELYSIUM : Possible create a seperate type for custom / user plugins
+// Although this might be better to dynamicly detect instead so users don't
+// Have to edit the src of the given plugin.
+export enum PluginType {
+    vencord = "vencord",
+    elysium = "elysium"
+}
+
 export interface Plugin extends PluginDef {
     patches?: Patch[];
     started: boolean;
     isDependency?: boolean;
+    pluginType: PluginType;
 }
 
 export interface PluginDef {
