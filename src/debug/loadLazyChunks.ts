@@ -98,7 +98,7 @@ export async function loadLazyChunks() {
                     const isResolved = chunksSearchPromises[i]();
 
                     if (isResolved) {
-                        // Remove finished promises to avoid having to iterate through a huge array everytime
+                        // Remove finished promises to avoid having to iterate through a huge array every time
                         chunksSearchPromises.splice(i--, 1);
                     } else {
                         allResolved = false;

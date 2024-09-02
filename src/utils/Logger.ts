@@ -18,8 +18,8 @@
 
 export class Logger {
     /**
-     * Returns the console format args for a title with the specified background colour and black text
-     * @param color Background colour
+     * Returns the console format args for a title with the specified background color and black text
+     * @param color Background color
      * @param title Text
      * @returns Array. Destructure this into {@link Logger}.errorCustomFmt or console.log
      *

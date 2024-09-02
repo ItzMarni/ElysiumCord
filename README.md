@@ -9,7 +9,7 @@
 
 ---
 
-# I'll make a proper readme later. with features etc if I ever complete this, I don't reccomend using this as it's just vanilla vencord with more bugs 💀
+# I'll make a proper readme later. with features etc if I ever complete this, I don't recommend using this as it's just vanilla vencord with more bugs 💀
 
 <!-- LINKS -->
 

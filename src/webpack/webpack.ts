@@ -29,7 +29,7 @@ const logger = new Logger("Webpack");
 export let _resolveReady: () => void;
 /**
  * Fired once a gateway connection to Discord has been established.
- * This indicates that the core webpack modules have been initialised
+ * This indicates that the core webpack modules have been initialized
  */
 export const onceReady = new Promise<void>(r => _resolveReady = r);
 
@@ -104,7 +104,7 @@ export function handleModuleNotFound(method: string, ...filter: unknown[]) {
     const err = new Error(`webpack.${method} found no module`);
     logger.error(err, "Filter:", filter);
 
-    // Strict behaviour in DevBuilds to fail early and make sure the issue is found
+    // Strict behavior in DevBuilds to fail early and make sure the issue is found
     if (IS_DEV && !devToolsOpen)
         throw err;
 }
@@ -243,7 +243,7 @@ export const findBulk = traceFunction("findBulk", function findBulk(...filterFns
         const err = new Error(`Got ${length} filters, but only found ${found} modules!`);
         if (IS_DEV) {
             if (!devToolsOpen)
-                // Strict behaviour in DevBuilds to fail early and make sure the issue is found
+                // Strict behavior in DevBuilds to fail early and make sure the issue is found
                 throw err;
         } else {
             logger.warn(err);
@@ -267,7 +267,7 @@ export const findModuleId = traceFunction("findModuleId", function findModuleId(
     const err = new Error("Didn't find module with code(s):\n" + code.join("\n"));
     if (IS_DEV) {
         if (!devToolsOpen)
-            // Strict behaviour in DevBuilds to fail early and make sure the issue is found
+            // Strict behavior in DevBuilds to fail early and make sure the issue is found
             throw err;
     } else {
         logger.warn(err);
@@ -511,7 +511,7 @@ export async function extractAndLoadChunks(code: CodeFilter, matcher: RegExp = D
         const err = new Error("extractAndLoadChunks: Couldn't find module factory");
         logger.warn(err, "Code:", code, "Matcher:", matcher);
 
-        // Strict behaviour in DevBuilds to fail early and make sure the issue is found
+        // Strict behavior in DevBuilds to fail early and make sure the issue is found
         if (IS_DEV && !devToolsOpen)
             throw err;
 
@@ -523,7 +523,7 @@ export async function extractAndLoadChunks(code: CodeFilter, matcher: RegExp = D
         const err = new Error("extractAndLoadChunks: Couldn't find chunk loading in module factory code");
         logger.warn(err, "Code:", code, "Matcher:", matcher);
 
-        // Strict behaviour in DevBuilds to fail early and make sure the issue is found
+        // Strict behavior in DevBuilds to fail early and make sure the issue is found
         if (IS_DEV && !devToolsOpen)
             throw err;
 
@@ -535,7 +535,7 @@ export async function extractAndLoadChunks(code: CodeFilter, matcher: RegExp = D
         const err = new Error("extractAndLoadChunks: Matcher didn't return a capturing group with the chunk ids array, or the entry point id returned as the second group wasn't a number");
         logger.warn(err, "Code:", code, "Matcher:", matcher);
 
-        // Strict behaviour in DevBuilds to fail early and make sure the issue is found
+        // Strict behavior in DevBuilds to fail early and make sure the issue is found
         if (IS_DEV && !devToolsOpen)
             throw err;
 
@@ -551,7 +551,7 @@ export async function extractAndLoadChunks(code: CodeFilter, matcher: RegExp = D
         const err = new Error("extractAndLoadChunks: Entry point is not loaded in the module factories, perhaps one of the chunks failed to load");
         logger.warn(err, "Code:", code, "Matcher:", matcher);
 
-        // Strict behaviour in DevBuilds to fail early and make sure the issue is found
+        // Strict behavior in DevBuilds to fail early and make sure the issue is found
         if (IS_DEV && !devToolsOpen)
             throw err;
 
@@ -601,7 +601,7 @@ export function waitFor(filter: string | PropsFilter | FilterFn, callback: Callb
 /**
  * Search modules by keyword. This searches the factory methods,
  * meaning you can search all sorts of things, displayName, methodName, strings somewhere in the code, etc
- * @param code One or more strings or regexes
+ * @param code One or more strings or regex's
  * @returns Mapping of found modules
  */
 export function search(...code: CodeFilter) {

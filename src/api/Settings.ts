@@ -170,12 +170,12 @@ if (!IS_REPORTER) {
  * as modifying properties on this will not save to disk or call settings
  * listeners.
  * WARNING: default values specified in plugin.options will not be ensured here. In other words,
- * settings for which you specified a default value may be uninitialised. If you need proper
+ * settings for which you specified a default value may be uninitialized. If you need proper
  * handling for default values, use {@link Settings}
  */
 export const PlainSettings = settings;
 /**
- * A smart settings object. Altering props automagically saves
+ * A smart settings object. Altering props automatically saves
  * the updated settings to disk.
  * This recursively proxies objects. If you need the object non proxied, use {@link PlainSettings}
  */
@@ -183,7 +183,7 @@ export const Settings = SettingsStore.store;
 
 /**
  * Settings hook for React components. Returns a smart settings
- * object that automagically triggers a rerender if any properties
+ * object that automatically triggers a rerender if any properties
  * are altered
  * @param paths An optional list of paths to whitelist for rerenders
  * @returns Settings

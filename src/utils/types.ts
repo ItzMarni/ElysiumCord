@@ -58,8 +58,8 @@ export interface PluginAuthor {
     id: BigInt;
 }
 
-// Todo - ELYSIUM : Possible create a seperate type for custom / user plugins
-// Although this might be better to dynamicly detect instead so users don't
+// Todo - ELYSIUM : Possible create a separate type for custom / user plugins
+// Although this might be better to dynamically detect instead so users don't
 // Have to edit the src of the given plugin.
 export enum PluginType {
     vencord = "vencord",
@@ -322,7 +322,7 @@ export interface DefinedSettings<
     plain: SettingsStore<Def> & PrivateSettings;
     /**
      * React hook for getting the settings for this plugin
-     * @param filter optional filter to avoid rerenders for irrelevent settings
+     * @param filter optional filter to avoid rerenders for irrelevant settings
      */
     use<F extends Extract<keyof Def | keyof PrivateSettings, string>>(filter?: F[]): Pick<SettingsStore<Def> & PrivateSettings, F>;
     /** Definitions of each setting */
