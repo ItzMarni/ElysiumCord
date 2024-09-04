@@ -173,6 +173,32 @@ export default definePlugin({
         async CHANNEL_SELECT({ channelId }) {
             if (channelId !== SUPPORT_CHANNEL_ID) return;
 
+            // for the absolute retards who will ask support in offical vencord channels :skull:
+            if (IS_DEV) {
+                return Alerts.show({
+                    title: "Elysium - Caution: Vencord Support Channel",
+                    body: (
+                        <div>
+                            <style>
+                                {
+                                    '[class*="backdrop_"][style*="backdrop-filter"]{backdrop-filter:blur(12px) !important;}'
+                                }
+                            </style>
+                            <Forms.FormText>
+                                Please refrain from seeking support in official Vencord servers.
+                            </Forms.FormText>
+                            <Forms.FormText>
+                                Elysium and its developers are not responsible if you get banned from support.
+                            </Forms.FormText>
+                        </div>
+                    ),
+                    confirmText: "Leave",
+                    cancelText: "Proceed Anyway",
+
+                    onConfirm: () => history.back(),
+                });
+            }
+
             const selfId = UserStore.getCurrentUser()?.id;
             if (!selfId || isPluginDev(selfId)) return;
 
