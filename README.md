@@ -10,6 +10,7 @@
 ---
 
 # I'll make a proper readme later. with features etc if I ever complete this, I don't recommend using this as it's just vanilla vencord with more bugs 💀
+hmmm yes uhhuh fr 100% mmmmh
 
 <!-- LINKS -->
 
