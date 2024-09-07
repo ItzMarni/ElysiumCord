@@ -33,10 +33,6 @@ export interface Dev {
  * If you are fine with attribution but don't want the badge, add badge: false
  */
 export const Devs = /* #__PURE__*/ Object.freeze({
-    Marni: {
-        name: "Marni",
-        id: 282905846457827330n
-    },
     Ven: {
         name: "Vee",
         id: 343383572805058560n
@@ -585,10 +581,35 @@ export const Devs = /* #__PURE__*/ Object.freeze({
     },
 } satisfies Record<string, Dev>);
 
+export const ElysiumDevs = Object.freeze({
+    Marni: {
+        name: "Marni",
+        id: 282905846457827330n
+    },
+} satisfies Record<string, Dev>);
+
+// credits for soundboardlogger
+export const EquicordDevs = Object.freeze({
+    thororen: {
+        name: "thororen",
+        id: 848339671629299742n
+    },
+    Fres: {
+        name: "fres",
+        id: 843448897737064448n
+    },
+} satisfies Record<string, Dev>);
+
+
+// should prob work (merge for 3 diff dev things)
 // iife so #__PURE__ works correctly
 export const DevsById = /* #__PURE__*/ (() =>
     Object.freeze(Object.fromEntries(
-        Object.entries(Devs)
+        [
+            ...Object.entries(Devs),
+            ...Object.entries(ElysiumDevs),
+            ...Object.entries(EquicordDevs)
+        ]
             .filter(d => d[1].id !== 0n)
             .map(([_, v]) => [v.id, v] as const)
     ))
