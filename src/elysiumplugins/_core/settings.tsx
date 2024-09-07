@@ -6,6 +6,7 @@
 
 import ElysiumPluginsTab from "@components/VencordSettings/ElysiumPluginsTab";
 import ElysiumTab from "@components/VencordSettings/ElysiumTab";
+import UpdaterTab from "@components/VencordSettings/UpdaterTab";
 import { Devs } from "@utils/constants";
 import definePlugin, { PluginType } from "@utils/types";
 import { i18n } from "@webpack/common";
@@ -64,6 +65,12 @@ export default definePlugin({
                 label: "Plugins",
                 element: ElysiumPluginsTab,
                 className: "ec-plugins"
+            },
+            !IS_UPDATER_DISABLED && {
+                section: "VencordUpdater",
+                label: "Updater",
+                element: UpdaterTab,
+                className: "vc-updater"
             },
             ...this.customSections.map(func => func(SectionTypes)),
             {
