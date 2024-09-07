@@ -7,7 +7,7 @@
 import ElysiumPluginsTab from "@components/VencordSettings/ElysiumPluginsTab";
 import ElysiumTab from "@components/VencordSettings/ElysiumTab";
 import UpdaterTab from "@components/VencordSettings/UpdaterTab";
-import { Devs } from "@utils/constants";
+import { ElysiumDevs } from "@utils/constants";
 import definePlugin, { PluginType } from "@utils/types";
 import { i18n } from "@webpack/common";
 import { Settings } from "Vencord";
@@ -18,7 +18,7 @@ type SectionTypes = Record<SectionType, SectionType>;
 export default definePlugin({
     name: "ElysiumSettings",
     description: "Add settings for Elysium",
-    authors: [Devs.Marni],
+    authors: [ElysiumDevs.Marni],
     pluginType: PluginType.elysium,
     required: true,
 
