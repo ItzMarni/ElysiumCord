@@ -28,7 +28,6 @@ export default new (class NoteHandler {
             },
             flags: message.flags,
             // Moment has a toString() function, this doesn't convert to '[object Object]'.
-            // eslint-disable-next-line @typescript-eslint/no-base-to-string
             timestamp: message.timestamp.toString(),
             attachments: message.attachments as Discord.Attachment[],
             embeds: message.embeds,
