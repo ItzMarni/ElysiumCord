@@ -22,7 +22,6 @@ import CloudTab from "@components/VencordSettings/CloudTab";
 import PatchHelperTab from "@components/VencordSettings/PatchHelperTab";
 import PluginsTab from "@components/VencordSettings/PluginsTab";
 import ThemesTab from "@components/VencordSettings/ThemesTab";
-import UpdaterTab from "@components/VencordSettings/UpdaterTab";
 import VencordTab from "@components/VencordSettings/VencordTab";
 import { Devs } from "@utils/constants";
 import { getIntlMessage } from "@utils/discord";
@@ -105,12 +104,6 @@ export default definePlugin({
                 label: "Themes",
                 element: ThemesTab,
                 className: "vc-themes"
-            },
-            !IS_UPDATER_DISABLED && {
-                section: "VencordUpdater",
-                label: "Updater",
-                element: UpdaterTab,
-                className: "vc-updater"
             },
             {
                 section: "VencordCloud",
