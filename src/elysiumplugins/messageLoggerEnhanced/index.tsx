@@ -21,7 +21,7 @@ import { Alerts, Button, FluxDispatcher, Menu, MessageActions, MessageStore, Rea
 
 import { OpenLogsButton } from "./components/LogsButton";
 import { openLogModal } from "./components/LogsModal";
-import { ImageCacheDir, LogsDir } from "./components/settings/FolderSelectInput";
+import { ImageCacheDir, LogsDir } from "./components/mleSettings/FolderSelectInput";
 import { openUpdaterModal } from "./components/UpdaterModal";
 import { addMessage, loggedMessages, MessageLoggerStore, removeLog } from "./LoggedMessageManager";
 import * as LoggedMessageManager from "./LoggedMessageManager";
