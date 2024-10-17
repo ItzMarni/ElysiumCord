@@ -11,8 +11,8 @@ import { Alerts, Button } from "@webpack/common";
 import { Settings } from "Vencord";
 
 import { Native } from ".";
+import { ImageCacheDir, LogsDir } from "./components/loggerSettings/FolderSelectInput";
 import { openLogModal } from "./components/LogsModal";
-import { ImageCacheDir, LogsDir } from "./components/settings/FolderSelectInput";
 import { openUpdaterModal } from "./components/UpdaterModal";
 import { clearMessagesIDB } from "./db";
 import { DEFAULT_IMAGE_CACHE_DIR } from "./utils/constants";
