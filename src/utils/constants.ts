@@ -582,6 +582,10 @@ export const ElysiumDevs = Object.freeze({
         name: "Marni",
         id: 282905846457827330n
     },
+        SomeAspy: {
+        name: "SomeAspy",
+        id: 516750892372852754n,
+    },
 } satisfies Record<string, Dev>);
 
 // credits for soundboardlogger
