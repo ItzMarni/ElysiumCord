@@ -8,9 +8,11 @@ import ElysiumPluginsTab from "@components/VencordSettings/ElysiumPluginsTab";
 import ElysiumTab from "@components/VencordSettings/ElysiumTab";
 import UpdaterTab from "@components/VencordSettings/UpdaterTab";
 import { ElysiumDevs } from "@utils/constants";
+import { getIntlMessage } from "@utils/discord";
 import definePlugin, { PluginType } from "@utils/types";
-import { i18n } from "@webpack/common";
 import { Settings } from "Vencord";
+
+import gitHash from "~git-hash";
 
 type SectionType = "HEADER" | "DIVIDER" | "CUSTOM";
 type SectionTypes = Record<SectionType, SectionType>;
@@ -24,20 +26,36 @@ export default definePlugin({
 
     patches: [
         {
-            find: "Messages.ACTIVITY_SETTINGS",
+            find: ".versionHash",
+            replacement: [
+                {
+                    match: /\[\(0,\i\.jsxs?\)\((.{1,10}),(\{[^{}}]+\{.{0,20}.versionHash,.+?\})\)," "/,
+                    replace: (m, component, props) => {
+                        props = props.replace(/children:\[.+\]/, "");
+                        return `${m},$self.makeInfoElements(${component}, ${props})`;
+                    }
+                },
+                {
+                    match: /copyValue:\i\.join\(" "\)/,
+                    replace: "$& + $self.getInfoString()"
+                }
+            ]
+        },
+        {
+            find: ".SEARCH_NO_RESULTS&&0===",
             replacement: [
                 {
                     match: /(?<=section:(.{0,50})\.DIVIDER\}\))([,;])(?=.{0,200}(\i)\.push.{0,100}label:(\i)\.header)/,
                     replace: (_, sectionTypes, commaOrSemi, elements, element) => `${commaOrSemi} $self.addSettings(${elements}, ${element}, ${sectionTypes}) ${commaOrSemi}`
                 },
                 {
-                    match: /({(?=.+?function (\i).{0,120}(\i)=\i\.useMemo.{0,60}return \i\.useMemo\(\(\)=>\i\(\3).+?function\(\){return )\2(?=})/,
+                    match: /({(?=.+?function (\i).{0,160}(\i)=\i\.useMemo.{0,140}return \i\.useMemo\(\(\)=>\i\(\3).+?function\(\){return )\2(?=})/,
                     replace: (_, rest, settingsHook) => `${rest}$self.wrapSettingsHook(${settingsHook})`
                 }
             ]
         },
         {
-            find: "Messages.USER_SETTINGS_ACTIONS_MENU_LABEL",
+            find: "#{intl::USER_SETTINGS_ACTIONS_MENU_LABEL}",
             replacement: {
                 match: /(?<=function\((\i),\i\)\{)(?=let \i=Object.values\(\i.\i\).*?(\i\.\i)\.open\()/,
                 replace: "$2.open($1);return;"
@@ -91,13 +109,18 @@ export default definePlugin({
 
         if (!header) return;
 
-        const names = {
-            top: i18n.Messages.USER_SETTINGS,
-            aboveNitro: i18n.Messages.BILLING_SETTINGS,
-            belowNitro: i18n.Messages.APP_SETTINGS,
-            aboveActivity: i18n.Messages.ACTIVITY_SETTINGS
-        };
-        return header === names[settingsLocation];
+        try {
+            const names = {
+                top: getIntlMessage("USER_SETTINGS"),
+                aboveNitro: getIntlMessage("BILLING_SETTINGS"),
+                belowNitro: getIntlMessage("APP_SETTINGS"),
+                aboveActivity: getIntlMessage("ACTIVITY_SETTINGS")
+            };
+
+            return header === names[settingsLocation];
+        } catch {
+            return firstChild === "PREMIUM";
+        }
     },
 
     patchedSettings: new WeakSet(),
@@ -124,4 +147,31 @@ export default definePlugin({
         };
     },
 
+    get additionalInfo() {
+        if (IS_DEV) return " (Dev)";
+        if (IS_WEB) return " (Web)";
+        if (IS_STANDALONE) return " (Standalone)";
+        return "";
+    },
+
+    getInfoRows() {
+        const { electronVersion, chromiumVersion, additionalInfo } = this;
+
+        const rows = [`ElysiumCord ${gitHash}${additionalInfo}`];
+
+        if (electronVersion) rows.push(`Electron ${electronVersion}`);
+        if (chromiumVersion) rows.push(`Chromium ${chromiumVersion}`);
+
+        return rows;
+    },
+
+    getInfoString() {
+        return "\n" + this.getInfoRows().join("\n");
+    },
+
+    makeInfoElements(Component: React.ComponentType<React.PropsWithChildren>, props: React.PropsWithChildren) {
+        return this.getInfoRows().map((text, i) =>
+            <Component key={i} {...props}>{text}</Component>
+        );
+    }
 });
