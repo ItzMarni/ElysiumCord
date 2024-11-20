@@ -28,7 +28,6 @@ import { getIntlMessage } from "@utils/discord";
 import definePlugin, { OptionType } from "@utils/types";
 import { React } from "@webpack/common";
 
-import gitHash from "~git-hash";
 
 type SectionType = "HEADER" | "DIVIDER" | "CUSTOM";
 type SectionTypes = Record<SectionType, SectionType>;
@@ -218,24 +217,11 @@ export default definePlugin({
         return "";
     },
 
-    getInfoRows() {
-        const { electronVersion, chromiumVersion, additionalInfo } = this;
+    // Whats the worst that can happen....
+    // (The same code is in the Elysium settings plugin lol)
+    getInfoRows() { },
 
-        const rows = [`Vencord ${gitHash}${additionalInfo}`];
+    getInfoString() { },
 
-        if (electronVersion) rows.push(`Electron ${electronVersion}`);
-        if (chromiumVersion) rows.push(`Chromium ${chromiumVersion}`);
-
-        return rows;
-    },
-
-    getInfoString() {
-        return "\n" + this.getInfoRows().join("\n");
-    },
-
-    makeInfoElements(Component: React.ComponentType<React.PropsWithChildren>, props: React.PropsWithChildren) {
-        return this.getInfoRows().map((text, i) =>
-            <Component key={i} {...props}>{text}</Component>
-        );
-    }
+    makeInfoElements(Component: React.ComponentType<React.PropsWithChildren>, props: React.PropsWithChildren) { }
 });
