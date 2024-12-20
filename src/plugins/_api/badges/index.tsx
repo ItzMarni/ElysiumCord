@@ -16,13 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-<<<<<<< HEAD
 import "./fixDiscordBadgePadding.css";
-=======
-// TODO - Elysium : Add elysium badges (disabled by default)
-
-import "./fixBadgeOverflow.css";
->>>>>>> d62ef887 (first actual useful thing I guess)
 
 import { _getBadges, BadgePosition, BadgeUserArgs, ProfileBadge } from "@api/Badges";
 import DonateButton from "@components/DonateButton";
