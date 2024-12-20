@@ -61,6 +61,9 @@ export interface Settings {
         };
     };
 
+    // Elysium Settings
+    elysiumHideDonorBadges: boolean;
+
     notifications: {
         timeout: number;
         position: "top-right" | "bottom-right";
@@ -90,6 +93,9 @@ const DefaultSettings: Settings = {
     disableMinSize: false,
     winNativeTitleBar: false,
     plugins: {},
+
+    // Elysium Settings
+    elysiumHideDonorBadges: false,
 
     notifications: {
         timeout: 5000,
